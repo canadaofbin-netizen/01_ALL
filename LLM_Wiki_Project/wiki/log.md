@@ -38,3 +38,11 @@ Append-only chronological record of ingests, queries, and lint passes.
 - Created summaries: BCI_Roadmap, BCI_in_AR_VR_Research.
 - Created 11 new concepts relating to spatial computing, HCI, and neurotechnology (e.g., Brain_Computer_Interface, Asymmetric_Hybrid_Control, Volume_Conduction).
 - Renamed raw assets to _processed.
+
+## [2026-07-15] ingest | BCI Internship Tracker & Networking Data
+- Ingested 'Intern summer 2.md' and '2027_BCI_Internship_Tracker.xlsx'.
+- Translated and synthesized Korean networking strategies and hackathon details into English according to the new Universal Language Constraint.
+- Created 9 Entity pages for Big Tech companies (e.g., Apple, Google_DeepMind, Meta_Reality_Labs).
+- Created Concepts: Cold_Email_Strategy, Neurotech_Hackathons.
+- Created Summaries: 2027_BCI_Internship_Tracker, Summer_2027_Internship_Networking.
+- Renamed raw files to _processed and synced with GitHub.

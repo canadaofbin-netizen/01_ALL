@@ -3,8 +3,17 @@
 This is the catalog of everything in the wiki.
 
 ## Entities
+- [[Apple]]
+- [[Google]]
+- [[Google_DeepMind]]
 - [[Kim_Lab]]
 - [[Kwangwoon_University]]
+- [[Meta_Reality_Labs]]
+- [[Microsoft_Research]]
+- [[Samsung_AI_Center]]
+- [[Snap_Lab]]
+- [[Sony_Interactive_Entertainment]]
+- [[Ultraleap]]
 - [[University_College_London]]
 - [[University_of_Oklahoma]]
 
@@ -17,6 +26,7 @@ This is the catalog of everything in the wiki.
 - [[Automation_Bias]]
 - [[Boundary_Spanning]]
 - [[Brain_Computer_Interface]]
+- [[Cold_Email_Strategy]]
 - [[Counterproductive_Work_Behavior]]
 - [[Electroencephalography]]
 - [[Event_Related_Potentials]]
@@ -26,6 +36,7 @@ This is the catalog of everything in the wiki.
 - [[Meta_Analysis]]
 - [[Motor_Imagery]]
 - [[Neural_Digital_Twin]]
+- [[Neurotech_Hackathons]]
 - [[Process_Mining]]
 - [[Situational_Strength]]
 - [[Steady_State_Visual_Evoked_Potentials]]
@@ -34,6 +45,7 @@ This is the catalog of everything in the wiki.
 - [[Zero_UI]]
 
 ## Summaries
+- [[2027_BCI_Internship_Tracker]]
 - [[2027_Resume_Summary]]
 - [[BCI_in_AR_VR_Research]]
 - [[BCI_Roadmap]]
@@ -43,4 +55,5 @@ This is the catalog of everything in the wiki.
 - [[Judge_and_Zapata_2015]]
 - [[Kim_Lab_Journal_Club_Summer_2026]]
 - [[Meyer_et_al_2009]]
+- [[Summer_2027_Internship_Networking]]
 - [[Yam_et_al_2023]]

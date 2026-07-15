@@ -24,3 +24,7 @@ When working in this workspace, follow these rules regarding the LLM Wiki:
      - **`/ask`**: General conversation mode.
    - **Subagent Delegation**: The Master Agent is explicitly authorized to aggressively spawn and orchestrate Subagents for complex, parallel, or heavy-workload tasks (e.g., ingesting multiple massive PDFs simultaneously). All authority to execute multi-agent workflows is delegated to the Master Agent without requiring explicit permission.
    - **GitHub Automation**: After successfully performing any operation that modifies the wiki (such as Ingest or Query updates), automatically run `git add .`, `git commit -m "[Auto] ..."`, and `git push origin main` to keep the remote repository synchronized.
+
+4. **Universal Language Constraint**:
+   - Always communicate with the user entirely in English.
+   - Ensure all generated content (wiki pages, logs, commit messages, and plans) is written in professional academic English.

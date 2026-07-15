@@ -45,10 +45,11 @@ At the bottom of new sections or claims, add a brief inline citation or backlink
 
 ## Output & Finalization
 
-When you finish processing a source file:
-1. Move or rename the processed file in the `raw/` folder to indicate it has been ingested (e.g., append `_processed` to the filename), or ask the user if it should be deleted.
-2. Update the `wiki/overview.md` or `wiki/index.md` if major new categories were added.
-3. Append a brief summary of your actions to `wiki/log.md`, detailing which files were read and which wiki pages were created/updated.
+When you finish processing source files, you MUST perform these mandatory automation and synchronization steps in order:
+1. **Idempotency (Rename)**: Rename all processed raw files (including those in subdirectories like `raw/assets/`) by appending `_processed` to their base filenames. This strictly prevents duplicate processing in the future. Do not ask the user for permission.
+2. **Index Update**: You must always update both `wiki/index.md` and `wiki/overview.md` to include links to any newly created Entity, Concept, or Summary pages.
+3. **Log Update**: Append a brief summary of your actions to `wiki/log.md`, detailing which files were read and which wiki pages were created/updated.
+4. **Git Sync**: Automatically stage, commit, and push all file changes to GitHub (e.g., `git add .`, `git commit -m "[Auto] Ingest..."`, `git push origin main`). Do not ask for permission to commit.
 
 ## Hard Rules
 

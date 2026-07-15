@@ -12,6 +12,7 @@ This wiki currently explores major concepts in I/O Psychology and Data Science, 
 - [[Automation_Bias]]
 - [[Boundary_Spanning]]
 - [[Brain_Computer_Interface]]
+- [[Cold_Email_Strategy]]
 - [[Counterproductive_Work_Behavior]]
 - [[Electroencephalography]]
 - [[Event_Related_Potentials]]
@@ -21,6 +22,7 @@ This wiki currently explores major concepts in I/O Psychology and Data Science, 
 - [[Meta_Analysis]]
 - [[Motor_Imagery]]
 - [[Neural_Digital_Twin]]
+- [[Neurotech_Hackathons]]
 - [[Process_Mining]]
 - [[Situational_Strength]]
 - [[Steady_State_Visual_Evoked_Potentials]]
@@ -29,8 +31,17 @@ This wiki currently explores major concepts in I/O Psychology and Data Science, 
 - [[Zero_UI]]
 
 ## Key Entities
+- [[Apple]]
+- [[Google]]
+- [[Google_DeepMind]]
 - [[Kim_Lab]]
 - [[Kwangwoon_University]]
+- [[Meta_Reality_Labs]]
+- [[Microsoft_Research]]
+- [[Samsung_AI_Center]]
+- [[Snap_Lab]]
+- [[Sony_Interactive_Entertainment]]
+- [[Ultraleap]]
 - [[University_College_London]]
 - [[University_of_Oklahoma]]
 
