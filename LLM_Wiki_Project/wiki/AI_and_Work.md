@@ -18,5 +18,9 @@ Based on the literature reviewed in the [[Kim_Lab_Journal_Club_Summer_2026]], re
 - **Trust and Bias**: How people perceive AI managers vs. human managers, often manifesting as [[Algorithm_Aversion]] or appreciation, and the moral psychology behind assigning responsibility to AI.
 - **Control and Autonomy**: The rise of [[Algorithmic_Management]] and how "collaborating" with AI can either augment human creativity or restrict worker autonomy by manufacturing consent.
 
+## Empirical Findings
+- **The "Jagged Technological Frontier"**: Dell'Acqua et al. (2026) demonstrated that generative AI acts as a massive productivity booster inside its capability frontier, but outside the frontier, it degrades performance due to [[Automation_Bias]] and overreliance.
+- **Psychological Impacts**: Yam et al. (2023) demonstrated that employee exposure to robots (both physical and psychological) increases subjective [[Job_Insecurity]], which can drive maladaptive behaviors like [[Counterproductive_Work_Behavior]] (e.g., employee burnout and incivility).
+
 ---
 *Provenance: Kim Lab Journal Club - Summer 2026*

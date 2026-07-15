@@ -25,3 +25,10 @@ Append-only chronological record of ingests, queries, and lint passes.
 - Created [[Algorithmic_Management]]
 - Created [[Kim_Lab_Journal_Club_Summer_2026]]
 - Successfully processed and moved raw file to `_processed`.
+
+## [2026-07-15] ingest | Multi-Agent PDF Ingest (6 Papers)
+- Spawned 6 subagents to concurrently read 6 academic PDFs from `raw/assets/`.
+- Created summaries: [[Meyer_et_al_2009]], [[Judge_and_Zapata_2015]], [[Calderwood_et_al_2023]], [[Dalal_et_al_2020]], [[DellAcqua_et_al_2026]], [[Yam_et_al_2023]].
+- Created concepts: [[Automation_Bias]], [[Extra_Normative_Work]], [[Job_Insecurity]], [[Counterproductive_Work_Behavior]].
+- Merged empirical findings seamlessly into [[Situational_Strength]], [[Trait_Activation_Theory]], [[AI_and_Work]], and [[Meta_Analysis]].
+- Renamed all 6 PDFs to `_processed.pdf`.

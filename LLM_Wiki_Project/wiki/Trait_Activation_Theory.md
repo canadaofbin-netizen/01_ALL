@@ -14,5 +14,8 @@ Trait Activation Theory (Tett & Burnett, 2003) is a personality-based interactio
 ## Relationship with Situational Strength
 As discussed in the [[Kim_Lab_Journal_Club_Summer_2026]], Trait Activation Theory and [[Situational_Strength]] often offer competing, yet sometimes complementary, explanations for when and how personality predicts job performance in organizational settings.
 
+## Empirical Support
+Judge and Zapata (2015) demonstrated that specific job contexts activate relevant Big Five traits, enhancing their predictive validity for job performance (e.g., jobs requiring strong social skills activated Extraversion). When compared directly, Trait Activation Theory explained more variance in personality-performance validities than general [[Situational_Strength]] for four out of the Big Five traits, highlighting the importance of trait-relevant cues in occupational contexts.
+
 ---
 *Provenance: Kim Lab Journal Club - Summer 2026*

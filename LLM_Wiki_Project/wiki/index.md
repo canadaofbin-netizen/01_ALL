@@ -12,7 +12,11 @@ This is the catalog of everything in the wiki.
 - [[AI_and_Work]]
 - [[Algorithm_Aversion]]
 - [[Algorithmic_Management]]
+- [[Automation_Bias]]
 - [[Boundary_Spanning]]
+- [[Counterproductive_Work_Behavior]]
+- [[Extra_Normative_Work]]
+- [[Job_Insecurity]]
 - [[Meta_Analysis]]
 - [[Process_Mining]]
 - [[Situational_Strength]]
@@ -20,4 +24,10 @@ This is the catalog of everything in the wiki.
 
 ## Summaries
 - [[2027_Resume_Summary]]
+- [[Calderwood_et_al_2023]]
+- [[Dalal_et_al_2020]]
+- [[DellAcqua_et_al_2026]]
+- [[Judge_and_Zapata_2015]]
 - [[Kim_Lab_Journal_Club_Summer_2026]]
+- [[Meyer_et_al_2009]]
+- [[Yam_et_al_2023]]

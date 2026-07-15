@@ -19,5 +19,8 @@ As detailed in the [[2027_Resume_Summary]], conducting a modern meta-analysis in
 
 This methodology is currently being applied to study [[Boundary_Spanning]] at the [[University_of_Oklahoma]].
 
+## Testing Contextual Moderators
+Meta-analytic techniques can be used not only to establish mean effect sizes but also to test theoretically derived contextual moderators. For example, Meyer et al. (2009) used Weighted Least Squares (WLS) regression in a meta-analysis to show that occupation-level [[Situational_Strength]] (derived externally from O*NET data) significantly moderates the conscientiousness-performance relationship across 114 primary studies.
+
 ---
 *Provenance: Experience section of [[2027 resume.md]]*

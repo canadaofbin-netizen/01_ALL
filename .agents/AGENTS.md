@@ -22,4 +22,5 @@ When working in this workspace, follow these rules regarding the LLM Wiki:
      - **`/query`**: Strictly queries the local Knowledge Base (`wiki/index.md`).
      - **`/lint`**: Runs a comprehensive 6-step health check on the wiki.
      - **`/ask`**: General conversation mode.
+   - **Subagent Delegation**: The Master Agent is explicitly authorized to aggressively spawn and orchestrate Subagents for complex, parallel, or heavy-workload tasks (e.g., ingesting multiple massive PDFs simultaneously). All authority to execute multi-agent workflows is delegated to the Master Agent without requiring explicit permission.
    - **GitHub Automation**: After successfully performing any operation that modifies the wiki (such as Ingest or Query updates), automatically run `git add .`, `git commit -m "[Auto] ..."`, and `git push origin main` to keep the remote repository synchronized.
