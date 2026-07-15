@@ -1,11 +1,17 @@
 ---
-type: concept
 title: "Process Mining"
-description: "Analytical discipline for discovering and improving organizational processes based on data."
-tags: [data-science, business, analysis]
+description: "An analytical discipline for discovering, monitoring, and optimizing organizational workflows."
+type: concept
+tags: ["data-science", "analysis", "business"]
 timestamp: 2026-07-15
 sources: ["[[2027 resume.md]]"]
 ---
+
 # Process Mining
 
-Process Mining is an analytical discipline that aims to discover, monitor, and improve real processes by extracting knowledge from event logs readily available in today's information systems. It provides visibility into how organizational workflows actually operate.
+Process Mining is an analytical discipline within data science and business management that focuses on discovering and improving real-world processes by analyzing event logs from information systems.
+
+According to the [[2027_Resume_Summary]], the subject has acquired foundational skills in Process Intelligence and Process Mining through an academic certificate from Celonis.
+
+---
+*Provenance: Certificate section of [[2027 resume.md]]*

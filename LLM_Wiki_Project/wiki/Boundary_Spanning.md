@@ -1,12 +1,19 @@
 ---
-type: concept
 title: "Boundary Spanning"
-description: "A concept in I/O Psychology referring to roles that bridge different organizational units or groups."
-tags: [psychology, organization, management]
+description: "An organizational psychology concept involving bridging communication and workflows between different groups."
+type: concept
+tags: ["psychology", "management", "organization"]
 timestamp: 2026-07-15
 sources: ["[[2027 resume.md]]"]
 ---
+
 # Boundary Spanning
 
-Boundary spanning refers to roles or activities that bridge different groups, departments, or external organizations to facilitate communication and information flow. 
-It is a topic of meta-analytic research at the University of Oklahoma and is practically applied in roles like restaurant service (bridging FOH and BOH).
+Boundary spanning is a concept in Industrial-organizational (I/O) Psychology that refers to roles or individuals that bridge communication and operational gaps between different teams, departments, or external organizations.
+
+## Practical Applications
+- **Academic Research**: It is the subject of a massive [[Meta_Analysis]] being conducted at the [[University_of_Oklahoma]], as noted in the [[2027_Resume_Summary]].
+- **Hospitality**: The concept is applied practically in restaurant environments, where a server acts as a boundary spanner between the Front-of-House (FOH) and Back-of-House (BOH) to align kitchen capacity with table service flow.
+
+---
+*Provenance: Experience section of [[2027 resume.md]]*
