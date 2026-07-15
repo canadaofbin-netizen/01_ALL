@@ -32,3 +32,9 @@ Append-only chronological record of ingests, queries, and lint passes.
 - Created concepts: [[Automation_Bias]], [[Extra_Normative_Work]], [[Job_Insecurity]], [[Counterproductive_Work_Behavior]].
 - Merged empirical findings seamlessly into [[Situational_Strength]], [[Trait_Activation_Theory]], [[AI_and_Work]], and [[Meta_Analysis]].
 - Renamed all 6 PDFs to `_processed.pdf`.
+
+## [2026-07-15] ingest | BCI Domain Expansion
+- Processed BCI Roadmap and AR/VR Research PDF using Master-Subagent architecture.
+- Created summaries: BCI_Roadmap, BCI_in_AR_VR_Research.
+- Created 11 new concepts relating to spatial computing, HCI, and neurotechnology (e.g., Brain_Computer_Interface, Asymmetric_Hybrid_Control, Volume_Conduction).
+- Renamed raw assets to _processed.
