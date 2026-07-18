@@ -77,6 +77,7 @@ This is the catalog of everything in the wiki.
 - [[Lecture_07_Hypothesis_Testing]]
 - [[Lecture_08_T_Tests]]
 - [[Lecture_09_Correlations]]
+- [[Lecture_10_Placeholder]]
 - [[Lecture_11_Linear_Regression]]
 - [[Lecture_12_One_Way_ANOVA]]
 - [[Lecture_13_Categorical_Data_With_Chi_Squared]]
