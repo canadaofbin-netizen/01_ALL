@@ -46,3 +46,13 @@ Append-only chronological record of ingests, queries, and lint passes.
 - Created Concepts: Cold_Email_Strategy, Neurotech_Hackathons.
 - Created Summaries: 2027_BCI_Internship_Tracker, Summer_2027_Internship_Networking.
 - Renamed raw files to _processed and synced with GitHub.
+
+## [2026-07-18] ingest | Research Methods & Statistics Lectures (14 PDFs)
+- Ingested 14 UCL Research Methods lecture PDFs (Lectures 1–9, 11–15) using 3-batch parallel subagent architecture.
+- **Housekeeping**: Renamed `2027 resume.md` and `temp_tracker.md` to `_processed` (content already in wiki from prior ingests).
+- **Summaries Created** (14): [[Lecture_01_The_Research_Process]], [[Lecture_02_Psychological_Data]], [[Lecture_03_Summarising_Data]], [[Lecture_04_Visualising_Data]], [[Lecture_05_Probability_Theory]], [[Lecture_06_Sampling]], [[Lecture_07_Hypothesis_Testing]], [[Lecture_08_T_Tests]], [[Lecture_09_Correlations]], [[Lecture_11_Linear_Regression]], [[Lecture_12_One_Way_ANOVA]], [[Lecture_13_Categorical_Data_With_Chi_Squared]], [[Lecture_14_Non_Parametric_Tests]], [[Lecture_15_Reproducible_Science]].
+- **Concepts Created** (14): [[Research_Process]], [[Variables_and_Measurement]], [[Descriptive_Statistics]], [[Data_Visualization]], [[Probability_Theory]], [[Sampling]], [[Hypothesis_Testing]], [[T_Test]], [[Correlation]], [[Linear_Regression]], [[ANOVA]], [[Chi_Squared_Test]], [[Non_Parametric_Tests]], [[Reproducibility]].
+- **Concepts Merged**: Batch B merged new content into [[Research_Process]], [[Descriptive_Statistics]], [[Probability_Theory]].
+- Renamed all 14 lecture PDFs to `_processed.pdf`.
+- Updated `index.md` and `overview.md` with all new pages.
+- Note: Lecture 10 was not present in the raw folder.

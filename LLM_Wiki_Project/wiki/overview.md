@@ -2,8 +2,25 @@
 
 Welcome to the LLM Wiki.
 
+## Research Methods & Statistics
+This wiki now includes a comprehensive series of lecture notes from a UCL Research Methods & Statistics course, covering:
+- [[Research_Process]] — The scientific method and research design
+- [[Variables_and_Measurement]] — Types of data and measurement scales
+- [[Descriptive_Statistics]] — Measures of central tendency and spread
+- [[Data_Visualization]] — Charts, graphs, and visual representations
+- [[Probability_Theory]] — Probability rules, distributions, and the normal curve
+- [[Sampling]] — Sampling methods and the central limit theorem
+- [[Hypothesis_Testing]] — Null/alternative hypotheses, Type I/II errors, p-values
+- [[T_Test]] — Independent and paired-samples t-tests
+- [[Correlation]] — Pearson's r, Spearman's rho, and partial correlation
+- [[Linear_Regression]] — Simple and multiple regression models
+- [[ANOVA]] — One-way analysis of variance and post-hoc tests
+- [[Chi_Squared_Test]] — Tests for categorical data independence
+- [[Non_Parametric_Tests]] — Distribution-free alternatives to parametric tests
+- [[Reproducibility]] — Open science, replication crisis, and pre-registration
+
 ## Core Concepts
-This wiki currently explores major concepts in I/O Psychology and Data Science, including:
+This wiki also explores major concepts in I/O Psychology and Data Science, including:
 - [[Adaptive_Noise_Canceling]]
 - [[AI_and_Work]]
 - [[Algorithm_Aversion]]

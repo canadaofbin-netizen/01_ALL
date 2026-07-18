@@ -1,0 +1,450 @@
+M. Siromahov Introduction to  
+ Statistical Methods  
+  1 
+ 
+Lecture 14. Non-parametric T ests 
+What are non-parametric tests? 
+• A class of statistical tests that make much weaker assumptions than their 
+parametric equivalents (also called assumption-free).   
+• The term non-parametric applies to any test which doesn’t assume the data are 
+drawn from a specific distribution (also called distribution-free) 
+• We have already seen some examples of non-parametric tests: 
+o Spearman’s Rank correlation test for an association between two variables 
+does not rely on normality. 
+o The χ2 goodness of fit and the   χ2  test of independence make weak 
+assumptions about frequency data. 
+We use non the parametric version of a test when… 
+• our data violate the assumption of normality: A parametric test ( t-tests, 
+Person’s r, and ANOVAs) usually includes some type of normality assumption, 
+and, if that assumption is false, the conclusions drawn from that test may be 
+inaccurate. In contrast, the validity of a non -parametric test is not affected by 
+whether or not the variable is normally distributed in the population. 
+• our data include a few extreme scores (outliers): Since many NP tests rank the 
+raw scores and operate on those ranks, they offer a test of differences in central 
+tendency that are not affected by one or a few very extreme scores (outliers). 
+An extreme score in a set of data can make the parametric test less powerful, 
+because it inflates the variance, and hence the error term, as well as biasing the 
+mean by shifting it toward the outlier (the latter may increase or decrease the 
+mean difference). 
+• we are interested primarily in medians rather than means 
+• our sample size is too small to determine a normal distribution : In small 
+datasets, it might be possible to reject the idea that they are normally 
+distributed from plotting them but it is usually not possible to say with 
+confidence that they are normally distributed (too few points to reliably get that 
+information). 
+How do non-parametric tests work?  
+• Most work on the principle of ranking the data 
+o Ranking: transforming raw scores into numbers that represent their 
+position in an ordered list of those scores, from lowest (rank 1) to highest 
+(rank N) 
+• The analysis is carried out on the ranks rather than the actual data 
+• The outcome of the analysis reasonably insensitive to the underlying 
+distribution of the data M. Siromahov Introduction to  
+ Statistical Methods  
+  2 
+ 
+ 
+Parametric tests and their non-parametric alternatives 
+ Parametric Non-parametric 
+Comparing two unpaired 
+sample means Two-Sample T-test Wilcoxon rank-sum test / 
+Mann-Whitey U-test 
+Comparing two paired sample 
+means Paired-Sample T-test Wilcoxon signed-rank 
+test 
+Comparing three or more 
+group means One-way ANOVA Kruskal-Wallis test 
+Testing association between 
+two measures 
+Pearson’s Correlation 
+(r)  
+Spearman’s Rank 
+Correlation (rho) 
+ 
+ 
+Between-groups: Wilcoxon rank-sum test 
+(Comparing two independent conditions) 
+Example: Do motor -speech skills differ between typically 
+developing (TD) children and children with perinatal lesion 
+(PL)? 
+• IV: group (TD/PL)  
+• Task: tongue twisters 
+• DV: number of errors 
+For this kind of study design, we should be able to run an 
+independent-samples t-test. However, in this case we cannot 
+do so, as the Shapiro-Wilk test of normality 
+is significant, in dicating that the data 
+distribution is different from normal:  
+ 
+M. Siromahov Introduction to  
+ Statistical Methods  
+  3 
+ 
+Assumptions 
+Two-samples t-test: 
+• Dependent variable is interval or ratio level  
+• Two samples are independent  
+• Dependent variable is normally distributed  
+• Additional assumption for Student’s t -test:  
+variances of two samples are equal 
+Wilcoxon rank-sum test: 
+• Dependent variable is ordinal ( with more than 
+2 levels), interval, or ratio level 
+• Two samples are independent  
+ 
+Hypotheses 
+• H0: The two sets of scores were sampled from identical populations 
+• Ha: The two sets of scores were sampled from different populations 
+More specifically: 
+• H0: the distributions of the two sets of scores  have the same central tendency 
+(median) 
+• Ha: the distributions of the two sets of scores  do not have the same central 
+tendency (median) 
+ 
+Wilcoxon’s rank -sum test evaluates the null 
+hypothesis that the two sets of scores were 
+sampled from identical populations. This is 
+broader than the null hypothesis tested by the 
+corresponding t-test, which dealt specifically with 
+means (primarily as a result of the underlying 
+assumptions that ruled out other sources of 
+difference). If the two populations are assumed to 
+have the same shape and dispersion, then the null 
+hypothesis tested by the rank-sum test will actually 
+deal with the central tendency (in this case the 
+medians) of the two populations, and if the populations are also symmetric, the 
+test will be a test of means. In any event, the rank-sum test is particularly sensitive 
+to differences in central tendency. 
+  
+M. Siromahov Introduction to  
+ Statistical Methods  
+  4 
+ 
+Working out the ranks 
+We start by ranking the scores from lowest (2) to highest (41). The highest rank is 
+N (the number of participants). 
+When multiple participants have the same score, we have to take the average of 
+their ranks. In this example, we have  two participants with a score of 15. Their 
+ranks should be 16 and 17. We find the average: 
+16+17
+2 = 16.5, so both participants 
+get a rank of 16.5.  
+Three other participants scored 9  on the outcom e measure  – they should have 
+ranks of 8, 9, and 10. The avera ge of these ran ks is 
+8+9+10
+3 = 9, s o all three 
+participants get a rank of 9.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Estimating the sum of ranks ∑(R):  
+Estimating the W statistic 
+• Larger groups will have larger ranks (if unequal group sizes) 
+• Correcting by using the following formula:   
+o mean rank = 
+𝑁(𝑁+1)
+2 =
+11(11+1)
+2 = 66 
+• Calculating the potential values for W per group: 
+o W = sum of ranks – mean rank 
+o WTD= 79.5 – 66 = 13.5 
+o WPL= 173.5 – 66 = 107.5 
+• For sample sizes ≤ 10, check critical value from a table; for larger sizes use z-test 
+• No need to worry about that when using R! 
+TD PL
+9 15
+3 14
+9 15
+10 8
+6 7
+11 22
+4 41
+5 19
+9 13
+1 18
+14 17
+TD PL
+9 16.5
+2 14.5
+9 16.5
+11 7
+5 6
+12 21
+3 22
+4 20
+9 13
+1 19
+14.5 18
+Raw Data 
+ Ranked Data 
+79.5 
+ 173.5 
+The smallest of the two W values is our test statistic M. Siromahov Introduction to  
+ Statistical Methods  
+  5 
+ 
+The interpretation of W is qualitatively the same as the interpretation of  a t-
+statistic. That is, if we want a two -sided test, then we reject the null hypothesis 
+when W is very large or very small; but if we have a directional (i.e., one -sided) 
+hypothesis, then we only use one or the other.  
+R uses the M onte Carlo method to obtain the significance level – this involves 
+creating lots of data sets that match the sample but putting people from both 
+groups randomly to either group. If the null hypothesis of no difference  was true, 
+the results would look very much like the data simulat ed with the Monte Carlo 
+method, where group doesn’t make a difference. An exact p -value is computed if 
+the samples contain less than 50 finite values and there are no ties. Otherwise, a 
+normal approximation is used.  The normal approximation assumes that the 
+sampling distribution of the W statistic is normal, which means that a standard 
+error can be computed that is used to calculate a z score and an associated p-value. 
+ 
+Performing a Wilcoxon rank-sum test in R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Continuity correction: Yates (1934) discussed in the χ2 lecture last week. 
+ 
+M. Siromahov Introduction to  
+ Statistical Methods  
+  6 
+ 
+Reporting the Wilcoxon rank-sum test 
+ 
+Often this test is reported as a Mann-Whitney U-test: 
+ 
+Within-groups: Wilcoxon signed-rank test 
+Example: Can motor -speech skills improve with oral -motor 
+exercises in children with perinatal lesion (PL)?  
+• IV: intervention (pre/post) 
+• Task: tongue twisters  
+• DV: number of errors 
+  
+ 
+The data for the perinatal lesion group were not normally 
+distributed (Shapiro-Wilk p < .05) so a Wilcoxon Rank Sum test was 
+conducted to evaluate group differences in the tongue-twister task. 
+Error rates in children with perinatal lesions ( Mdn = 15) were 
+significantly higher than those in typically developing children (Mdn 
+= 9), W=13.5, n1=11, n2=11, p=.002. 
+… Error rates in children with perinatal lesions ( Mdn =  15) were 
+significantly higher than those in typically developing children (Mdn 
+= 9), U= 13.5, n1=11, n2=11, p=0.002. 
+PLpre PLpost
+15 26
+14 14
+15 12
+8 11
+7 8
+22 17
+41 3
+19 16
+13 9
+18 10
+17 11M. Siromahov Introduction to  
+ Statistical Methods  
+  7 
+ 
+Assumptions 
+Paired-samples t-test: 
+• Dependent variable is interval or ratio level  
+• Two samples are paired 
+• Dependent variable (differences between 
+conditions) is normally distributed  
+ 
+Wilcoxon signed-rank test: 
+• Dependent variable is ordinal (with more 
+than 2 levels), interval, or ratio level 
+• Two samples are paired  
+ 
+Hypotheses 
+• H0: the distribution of difference scores (in the population) is symmetric about 
+zero.  
+• Ha: the distribution of difference scores (in the population) is not symmetric 
+about zero.  
+More specifically: 
+• H0: the median difference is zero / change in scores is zero / there is no change 
+in scores after the intervention 
+• Ha: the median difference is not zero / change in scores is not zero / there is a 
+change in scores after the intervention 
+This is the same hypothesis tested by the corresponding t-test when that test’s 
+normality assumption is met. 
+ 
+Ranking the data 
+First one needs to estimate the differences between the two conditions . We take 
+note of the sign of the difference (positive or negative) and we rank the differences 
+from smallest to largest ignoring the sign. If the difference is zero, we exclude these 
+data from the ranking. We deal with tied scores the same way as we’ve done before. 
+We then sum the positive differences (positive ranks) and negative ranks. Our test 
+statistic T is the smaller of the two values. M. Siromahov Introduction to  
+ Statistical Methods  
+  8 
+ 
+PLpre PLpost Difference Sign Rank Positive Ranks Negative Ranks
+15 26 -11 - 9 9
+14 14 0 Exclude
+15 12 3 + 3 3
+8 11 -3 - 3 3
+7 8 -1 - 1 1
+22 17 5 + 6 6
+41 3 38 + 10 10
+19 16 3 + 3 3
+13 9 4 + 5 5
+18 10 8 + 8 8
+17 11 6 + 7 7
+Total = 42 13
+ 
+Performing a Wilcoxon signed-rank test in R 
+ 
+ 
+Reporting the Wilcoxon signed-rank test 
+For the Wilcoxon test we only need to report the significance of the test (and 
+preferably the medians per condition): 
+The perinatal lesion group’s change scores from pre to post 
+intervention were not normally distributed (Shapiro -Wilk p < .05) 
+so a Wilcoxon Signed -Rank test was conducted to evaluate group 
+change in tongue -twister task performance. Error rates before the 
+intervention (Mdn =  15) were higher than after the intervention 
+(Mdn = 11), but this difference was not significant (p=0.138). M. Siromahov Introduction to  
+ Statistical Methods  
+  9 
+ 
+ 
+Alternative to ANOVA: Kruskal-Wallis test 
+Example: Does lesion size (small, medium, large) 
+affect motor -speech skills in children with 
+perinatal lesion (PL)? 
+• IV: group (small, medium, large PL)  
+• Task: tongue twisters 
+• DV: number of errors 
+ 
+ 
+Why not a one-way ANOVA? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Assumptions 
+One-way ANOVA: 
+• The DV is interval or ratio level  
+• Independent observations 
+• Homogeneity variance of residuals  
+• Normal distribution of residuals  
+ 
+Kruskal-Wallis: 
+• The DV is ordinal (with more than 2 levels), 
+interval, or ratio level 
+• Independent observations 
+• Sample size: each group must have a sample 
+size of 5 or more.  
+ 
+small medium large
+11 11 8
+4 14 14
+19 17 22
+1 10 18
+8 9 17
+10 12 15
+14 11 7
+8 26 41
+6 8 19
+5 3 16
+M. Siromahov Introduction to  
+ Statistical Methods  
+  10 
+ 
+Hypotheses 
+• H0: all samples are drawn from identical populations/ population distributions 
+do not differ across groups.  
+• Ha: at least one sample is not drawn from identical populations/ population 
+distributions do differ across groups. 
+More specifically: 
+• H0:  Scores will not differ for different lesion size groups 
+• Ha:  Scores will differ for different lesion size groups 
+The Kruskal -Wallis test does not test specifically if the mean or median of the 
+groups differ, only if the overall distributions are significantly different or not. 
+ 
+Analysis 
+Step 2: Prepare and rank your data – Arrange data from all groups together in one 
+list in an ascending order – Give a rank to each of the data entries 
+Step 3: Sum the ranks for each group/condition 
+ 
+M. Siromahov Introduction to  
+ Statistical Methods  
+  11 
+ 
+Calculating the test statistic H 
+ 
+ 
+ 
+ 
+ 
+To perform the Kruskal –Wallis test, we simply rank all scores without regard to 
+group membership and then compute the sum of the ranks for each group . If the 
+null hypothesis is true, we would expect the s ums to be more or less equal (aside 
+from difference due to the size of the samples). H = a measure of the degree to 
+which the sums differ from one another. 
+Performing Kruskal-Wallis in R 
+ 
+Post-hoc pairwise comparisons 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bonferroni correction:  
+p-value × number of comparisons 
+0.01964*3 = 0.05892 > alpha level M. Siromahov Introduction to  
+ Statistical Methods  
+  12 
+ 
+Reporting Kruskal-Wallis in R 
+Conclusion 
+Before we conclude, you might be wondering: Why not always run the non -
+parametric versions of tests and not bother with assumptions of the parametric 
+ones? 
+Ranking data is a useful way around the distribution assumptions of parametric 
+tests and outlier effects, however there is a price to pay: by ranking the data we 
+lose some information about the magnitude of differences between scores. 
+Consequently, non-parametric tests can be less powerful than their parametric 
+counterparts. Reminder: power refers to the ability of a test to find an effect that 
+genuinely exists. A parametric test is more likely to detect an effect than a non -
+parametric one. However, that is true only when the assumptions of the parametric 
+test are met. 
+ 
+ 
+ 
+The assumption of normality of the residuals was violated (Shapiro-
+Wilk p < .05) so a Kruskal -Wallis test was conducted to evaluate 
+differences in the tongue-twister task across different lesion groups 
+(small, medium, large). Error rates were significantly different 
+across children with different perinatal lesion size, H(2) = 6.84, p 
+=.033.  
+Children with large lesions (Mdn =  17) made more errors than 
+children with medium ( Mdn =  11) and small lesions ( Mdn =  8). 
+However, these differences were not significant when followed up 
+with pairwise Wilcoxon’s Rank Sum tests corrected for the number 
+of comparisons.  

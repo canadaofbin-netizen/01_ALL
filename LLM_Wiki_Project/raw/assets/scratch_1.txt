@@ -1,0 +1,415 @@
+One-Way ANOVA
+Dr Metodi Siromahovt-tests recap
+• t-tests are used when 
+comparing only two groups, 
+conditions, or meanst-tests recap
+• t-tests are used when 
+comparing only two groups, 
+conditions, or means
+• ANOVAs are used when we 
+have more than 2 groups
+• Analysis Of Variance
+Categorical IV
+(groups, conditions)What is an ANOVA?
+• Example:
+• IV: age group (children, young adults, elderly)
+• DV: speed of processing
+vs
+Children Young Adults
+vs
+Elderly
+Children YA Elderly
+Processing time
+IV: Age
+DV: Processing 
+timeWhat is an ANOVA?
+• Example:
+• IV: age group (children, young adults, elderly)
+• DV: speed of processing
+• Can have more than 1 IV for multivariate 
+analysis:
+• E.g., does speed of processing depend on age 
+group and time of day? 
+• IV1: age group (children, young adults, elderly)
+• IV2: time of day (am, pm)
+• DV: speed of processing
+• One-way ANOVA = 1 IV
+• Two-way ANOVA = 2 IVs  next year
+vs
+Children Young Adults
+vs
+Elderly
+Children YA
+Elderly
+Processing time
+IV1: Age
+DV: Processing 
+time
+IV2: Time of 
+day am pm am pm am pm
+Types of research design
+Comparing two mutually exclusive 
+groups
+a.k.a. independent samples
+vs
+Group A Group B Time 1 Time 2
+The same participants tested at different times
+a.k.a. repeated measures
+Between-subjects 
+design
+Within-subjects design
+One-way between-subjects ANOVA
+• One-way: A single categorical 
+predictor with more than 2 levels. 
+• Experiment testing the effect of music 
+tempo on 10k running speed 
+• Between-subjects design: 3 different 
+conditions/groups
+1. High Tempo: Participants listened to high tempo, i.e. 
+upbeat, music 
+2. Low Tempo: Participants listened to low tempo, i.e. slow, 
+music 
+3. No Music: Participants did not listen to any music
+Visualise the data 
+8
+10
+12
+HighTempo LowTempo NoMusic
+Group
+SpeedReminder: Hypothesis testing  
+Steps: 
+1. Determine the null and alternative hypotheses
+2. Choose a test statistic that if extreme would make us doubt null 
+hypothesis
+3. Simulate or select theoretical null hypothesis sampling distribution 
+4. Determine where our observed test statistic lies within this distribution and 
+therefore the probability of it being observed if null hypothesis was true.
+5. Check the probability (p-value) against a critical threshold (alpha) Hypotheses
+• Null hypothesis: type of music does not make a difference to 
+participants’ running speed (population means are equal, best 
+described by the grand mean) 
+• Alternative hypothesis: participants will run faster in some 
+conditions than other conditions (the population means are not 
+equal, best described by group-specific means)Reminder: Hypothesis testing  
+Steps: 
+1.Determine the null and alternative hypotheses
+2.Choose a test statistic that if extreme would make us doubt null 
+hypothesis
+3.Simulate or select theoretical null hypothesis sampling 
+distribution 
+4.Determine where our observed test statistic lies within this 
+distribution and therefore the probability of it being observed if 
+null hypothesis was true.
+5.Check the probability (p-value) against a critical threshold 
+(alpha) The test statistic: F
+• From last week: Building a linear model 
+was only half the task. We also had to test 
+whether the model is a good fit for the 
+data. 
+• We tested goodness-of-fit with an F-test
+• We’ll do the same thing with the ANOVA
+X
+Y
+F =
+𝑉𝑎𝑟𝑖𝑎𝑛𝑐𝑒 𝑒𝑥𝑝𝑙𝑎𝑖𝑛𝑒𝑑 𝑏𝑦 𝑚𝑜𝑑𝑒𝑙
+𝑅𝑒𝑚𝑎𝑖𝑛𝑖𝑛𝑔 𝑢𝑛𝑒𝑥𝑝𝑙𝑎𝑖𝑛𝑒𝑑 𝑣𝑎𝑟𝑖𝑎𝑛𝑐𝑒 = 
+𝑀𝑆𝑚𝑜𝑑𝑒𝑙
+𝑀𝑆𝑒𝑟𝑟𝑜𝑟The test statistic: F
+• Large F = the model explains a lot of the 
+variation relative to sampling error.
+• Small F = the model explains little of the 
+variation relative to sampling error. 
+F =
+𝑉𝑎𝑟𝑖𝑎𝑛𝑐𝑒 𝑒𝑥𝑝𝑙𝑎𝑖𝑛𝑒𝑑 𝑏𝑦 𝑚𝑜𝑑𝑒𝑙
+𝑅𝑒𝑚𝑎𝑖𝑛𝑖𝑛𝑔 𝑢𝑛𝑒𝑥𝑝𝑙𝑎𝑖𝑛𝑒𝑑 𝑣𝑎𝑟𝑖𝑎𝑛𝑐𝑒 = 
+𝑉𝑎𝑟𝑖𝑎𝑛𝑐𝑒 𝑖𝑛 𝐷𝑉 𝑎𝑐𝑐𝑜𝑢𝑛𝑡𝑒𝑑 𝑓𝑜𝑟 𝑏𝑦 𝑔𝑟𝑜𝑢𝑝
+𝑅𝑒𝑚𝑎𝑖𝑛𝑖𝑛𝑔 𝑣𝑎𝑟𝑖𝑎𝑛𝑐𝑒Remember variance?
+Variance = dispersion of scores around the 
+Mean
+= average squared distances of 
+scores from the sample mean
+ How much of the variance in the DV is explained by group 
+differences 
+and how much of it is residual?
+140
+150
+160
+170
+180
+190
+200
+Height
+Variance
+෢𝜎2 = 𝑠𝑢𝑚𝑜𝑓 𝑠𝑞𝑢𝑎𝑟𝑒𝑑𝑑𝑖𝑓𝑓𝑒𝑟𝑒𝑛𝑐𝑒𝑠
+𝑑𝑒𝑔𝑟𝑒𝑒𝑠𝑜𝑓 𝑓𝑟𝑒𝑒𝑑𝑜𝑚 = 𝑺𝑺
+𝑫𝑭 =
+σ𝑖=1
+𝑛 (𝑥𝑖 − ത𝑋)2
+𝑛 − 1Does the model fit the data? 
+F = 𝑀𝑆𝑚𝑜𝑑𝑒𝑙
+𝑀𝑆𝑒𝑟𝑟𝑜𝑟
+=
+𝑆𝑆𝑚𝑜𝑑𝑒𝑙
+𝐷𝐹𝑚𝑜𝑑𝑒𝑙
+𝑆𝑆𝑒𝑟𝑟𝑜𝑟
+𝐷𝐹𝑒𝑟𝑟𝑜𝑟
+Let’s find the Sums of Squares 
+firstStep 1: Partition variance 
+𝑆𝑆𝑡𝑜𝑡𝑎𝑙 = 𝑆𝑆𝑚𝑜𝑑𝑒𝑙 + 𝑆𝑆𝑒𝑟𝑟𝑜𝑟
+Sum of squared differences between 
+each data-point and overall mean
+Sum of squared differences between 
+each group mean and overall mean
+Sum of squared of difference between 
+each data-point and group mean
+𝑑𝑎𝑡𝑎= 𝑚𝑜𝑑𝑒𝑙+ 𝑒𝑟𝑟𝑜𝑟SStotal
+8
+10
+12
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+id
+Speed Group
+HighTempo
+LowTempo
+NoMusic
+overall meanData
+High tempo Low tempo No music
+11.6 8.7 8.21
+12.3 8.32 9.05
+9.66 7.82 9.37
+10.6 8.3 10.3
+11.2 9.29 10.7
+10.5 6.7 9.74
+11.9 9.89 8.12
+11.1 8.39 12.5
+9.97 10.8 7.03
+12.5 7.12 10.6 Overall mean
+Group mean 11.13 8.53 9.56 9.74SStotal
+Group 𝑘 Speed 𝑋𝑖𝑘 [𝑋𝑖𝑘 − ത𝑋] [𝑋𝑖𝑘 − ത𝑋]2
+HighTempo 11.6 11.6 – 9.74=1.86 3.46
+HighTempo 12.3 12.3– 9.74=2.56 6.55
+HighTempo 9.66 9.66– 9.74=-0.08 0.01
+LowTempo 8.7 8.7– 9.74=-1.04 1.08
+LowTempo 6.7 6.7– 9.74=-3.04 9.24
+LowTempo 9.89 9.89– 9.74=0.15 0.23
+NoMusic 9.37 9.37– 9.74=-0.37 0.14
+NoMusic 10.3 10.3– 9.74=0.56 0.31
+NoMusic 10.7 10.7– 9.74=0.96 0.92
+Overall Mean 9.74 SStotal= 78.30Step 1: Partition variance 
+𝑆𝑆𝑡𝑜𝑡𝑎𝑙 = 𝑆𝑆𝑚𝑜𝑑𝑒𝑙 + 𝑆𝑆𝑒𝑟𝑟𝑜𝑟
+Sum of squared differences between 
+each data-point and overall mean
+Sum of squared differences between 
+each group mean and overall mean
+Sum of squared of difference between 
+each data-point and group mean
+𝑑𝑎𝑡𝑎= 𝑚𝑜𝑑𝑒𝑙+ 𝑒𝑟𝑟𝑜𝑟8
+10
+12
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+id
+Speed Group
+HighTempo
+LowTempo
+NoMusic
+SSmodel
+overall meanSSmodel Group 𝑘 Speed 𝑋𝑖𝑘 Group Mean 𝑿𝒌 [𝑿𝒌 − ത𝑋] [𝑿𝒌 − ത𝑋]2
+HighTempo 11.6 11.13 11.13 – 9.74=1.39 1.93
+HighTempo 12.3 11.13 11.13 – 9.74=1.39 1.93
+HighTempo 9.66 11.13 11.13 – 9.74=1.39 1.93
+LowTempo 8.7 8.53 8.53– 9.74=-1.21 1.46
+LowTempo 6.7 8.53 8.53– 9.74=-1.21 1.46
+LowTempo 9.89 8.53 8.53– 9.74=-1.21 1.46
+NoMusic 9.37 9.56 9.56– 9.74=-0.18 0.03
+NoMusic 10.3 9.56 9.56– 9.74=-0.18 0.03
+NoMusic 10.7 9.56 9.56– 9.74=-0.18 0.03
+Overall Mean 9.74 SSmodel= 34.29Step 1: Partition variance 
+𝑆𝑆𝑡𝑜𝑡𝑎𝑙 = 𝑆𝑆𝑚𝑜𝑑𝑒𝑙 + 𝑆𝑆𝑒𝑟𝑟𝑜𝑟
+Sum of squared differences between 
+each data-point and overall mean
+Sum of squared differences between 
+each group mean and overall mean
+Sum of squared of difference between 
+each data-point and group mean
+𝑑𝑎𝑡𝑎= 𝑚𝑜𝑑𝑒𝑙+ 𝑒𝑟𝑟𝑜𝑟SSerror
+8
+10
+12
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+id
+Speed Group
+HighTempo
+LowTempo
+NoMusic
+overall meanSSerror Group 𝑘 Speed 𝑋𝑖𝑘 Group Mean 𝑿𝒌 [𝑿𝒌 − 𝑋𝑖𝑘] [𝑿𝒌 − 𝑋𝑖𝑘]2
+HighTempo 11.6 11.13 11.13-11.6 =-0.47 0.22
+HighTempo 12.3 11.13 11.13-12.3 =-1.17 1.37
+HighTempo 9.66 11.13 11.13-9.66=1.47 2.16
+LowTempo 8.7 8.53 8.53-8.7=-0.17 0.03
+LowTempo 6.7 8.53 8.53-6.7=1.83 3.35
+LowTempo 9.89 8.53 8.53-9.89=-1.36 1.85
+NoMusic 9.37 9.56 9.56-9.37=0.19 0.04
+NoMusic 10.3 9.56 9.56-10.3=-0.74 0.55
+NoMusic 10.7 9.56 9.56-10.7=-1.14 1.30
+Overall Mean 9.74 SSerror= 44.01Step 1: Partition variance 
+𝑆𝑆𝑡𝑜𝑡𝑎𝑙 = 𝑆𝑆𝑚𝑜𝑑𝑒𝑙 + 𝑆𝑆𝑒𝑟𝑟𝑜𝑟
+Sum of squared differences between 
+each data-point and overall mean
+Sum of squared differences between 
+each group mean and overall mean
+Sum of squared of difference between 
+each data-point and group mean
+𝑑𝑎𝑡𝑎= 𝑚𝑜𝑑𝑒𝑙+ 𝑒𝑟𝑟𝑜𝑟
+78.30   =    34.29    +    44.01Does the model fit the data? 
+F = 𝑀𝑆𝑚𝑜𝑑𝑒𝑙
+𝑀𝑆𝑒𝑟𝑟𝑜𝑟
+=
+𝑆𝑆𝑚𝑜𝑑𝑒𝑙
+𝐷𝐹𝑚𝑜𝑑𝑒𝑙
+𝑆𝑆𝑒𝑟𝑟𝑜𝑟
+𝐷𝐹𝑒𝑟𝑟𝑜𝑟
+Now let’s find the DFs of the model and the 
+errorDegrees of Freedom of the model (numerator) = number of groups –
+1
+3 – 1 = 2 
+Degrees of freedom of the error (denominator) = number of 
+participants – number of groups 
+30 - 3 = 27
+Step 2: Find DFs of model and errorStep 3. Calculate F
+F = 𝑀𝑆𝑚𝑜𝑑𝑒𝑙
+𝑀𝑆𝑒𝑟𝑟𝑜𝑟
+=
+𝑆𝑆𝑚𝑜𝑑𝑒𝑙
+𝐷𝐹𝑚𝑜𝑑𝑒𝑙
+𝑆𝑆𝑒𝑟𝑟𝑜𝑟
+𝐷𝐹𝑒𝑟𝑟𝑜𝑟
+=
+34.29
+2
+44.01
+27
+= 17.15
+1.63 = 10.52Reminder: Hypothesis testing  
+Steps: 
+1.Determine the null and alternative hypotheses
+2.Choose a test statistic that if extreme would make us doubt null 
+hypothesis
+3.Simulate or select theoretical null hypothesis sampling 
+distribution
+4.Determine where our observed test statistic lies within this 
+distribution and therefore the probability of it being observed if 
+null hypothesis was true.
+5.Check the probability (p-value) against a critical threshold 
+(alpha) Null hypothesis: F distribution
+• The distribution tells us the 
+probability of observing F 
+values under the null 
+hypothesis (groups drawn 
+from same population). 
+• F statistic is always positive 
+as it is the ratio of two 
+variances (which are always 
+positive) 
+• The shape of the F distribution 
+depends on the two degrees 
+of freedom
+Histogram of x
+x
+Density
+0 2 4 6 8 10 12
+0.0 0.2 0.4 0.6 0.8 1.0
+F distribution with dfgroup=2, dferror=27
+p
+F                                                        Determining the p-value
+Histogram of x
+x
+Density
+0 2 4 6 8 10 12
+0.0 0.2 0.4 0.6 0.8 1.0
+F distribution with dfgroup=2, dferror=27
+p
+F                                                        
+Probability of observing 
+an F value of 10.52 or 
+greater is < 0.001One-Way ANOVA in ROne-Way ANOVA in R
+Data must be in long format
+(groups/conditions in one column, 
+scores in another)One-Way ANOVA in R
+We are going to run an ANOVA using the package ‘afex’
+Effect size
+• Eta squared (ƞ2) is the effect size used with the F statistic
+• Gives the proportion of total variation that is explained by our model 
+(group membership) relative the total variation
+𝜂2 = 𝑆𝑆𝑚𝑜𝑑𝑒𝑙
+𝑆𝑆𝑡𝑜𝑡𝑎𝑙
+= 34.29
+78.30 = 0.44
+• So, in our study 44% of variability is explained by music group 
+conditionPost-hoc analysis
+• Important: A significant F-test only tells us that 
+differences between groups are most likely not 
+due to chance
+• But it doesn’t tell us where the difference between 
+the groups lies: which condition is better for running 
+speed? 
+• We need to perform follow-up tests to find out
+• Pairwise t-tests to compare each group with 
+each other
+• E.g. perform 3 t-tests to compare 3 groups: A:B, B:C, 
+A:C
+• But remember: each test comes with a 5% 
+false-positive rate
+• We therefore need to correct the p-values for 
+multiple comparisons
+8
+10
+12
+HighTempo LowTempo NoMusic
+Group
+SpeedBonferroni correction 
+• Multiply each p-value by number of comparisons. 
+• E.g., p-value from a t-test is .025 but it’s one of 10 tests  it would be 
+corrected to 0.25  would no longer pass our significance threshold
+• Pairwise comparisons can be performed with Bonferroni 
+correction in R using pairwise.t.test()Comparing groups
+} Bonferroni corrected p-valuesAssumptions 
+Similar to the assumptions for independent sample t-tests: 
+1.The DV is interval or ratio data level 
+2.Independent observations
+3.Homogeneity variance of residuals 
+1. Can test using levene’s test on residuals 
+4.Normal distribution of residuals 
+1. Test using QQ-plot and shapiro-wilk test 
+ANOVA is robust to violations of 
+these assumptions if group sizes 
+are equal Reporting ANOVA results
+We conducted a one-way ANOV A on running speed (km/hr) with Group 
+(three levels: High Tempo, Low Tempo, and No Music) as a between-
+subject variable. There was a significant main effect of group, F(2, 27) = 
+10.52, p < .001, η2 = .44. 
+Post-hoc comparisons using Bonferroni correction showed that running 
+speed was significantly higher in the High Tempo music group (M = 
+11.13, SD = 0.96) compared to the Low Tempo music group (M = 8.53, 
+SD = 1.23, p < .001) and the No Music group (M = 9.56, SD = 1.57, p = 
+.031). The Low Tempo and No Music group did not differ significantly in 
+running performance (p = .248).Write-up checklist
+• Report type of ANOVA performed (“… one-way ANOVA …”)
+• Report the DV and IV (including levels) (“… speed (km/hr) with Group (three 
+levels: High Tempo, Low Tempo, and No Music) as a between-subject variable 
+…”) 
+• Comment on significance (“… There was a significant main effect of group …”)
+• Report F(df) = Fvalue, p=pvalue (“…F(2, 27) = 10.52, p < .001 …”)
+• Report effect size (eta squared) (“η2 = .44”)
+• Report post-hoc comparisons and adjusted p-values (“… Post-hoc comparisons 
+using Bonferroni correction showed that …”)
+• Describe the direction of the pairwise comparisons (“…  running speed was 
+significantly higher in the High Tempo music group compared to the Low 
+Tempo music group …”)
+• Report exact p-values, unless p<.001
+• Report all values to 2 decimal places (except for p values)Visualise the data 
+8
+10
+12
+HighTempo LowTempo NoMusic
+Group
+SpeedThank you
