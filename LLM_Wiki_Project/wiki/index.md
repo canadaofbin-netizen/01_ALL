@@ -4,22 +4,29 @@ This is the catalog of everything in the wiki.
 
 ## Entities
 - [[Apple]]
+- [[Cambridge_NeuroWorks]]
+- [[Columbia_University]]
 - [[Google]]
 - [[Google_DeepMind]]
+- [[Iverson_Lab]]
 - [[Kim_Lab]]
+- [[Kornysheva_Lab]]
 - [[Kwangwoon_University]]
 - [[Meta_Reality_Labs]]
 - [[Microsoft_Research]]
+- [[NAPLab]]
 - [[Samsung_AI_Center]]
 - [[Snap_Lab]]
 - [[Sony_Interactive_Entertainment]]
 - [[Ultraleap]]
 - [[University_College_London]]
+- [[University_of_Birmingham]]
 - [[University_of_Oklahoma]]
 
 ## Concepts
 - [[Adaptive_Noise_Canceling]]
 - [[AI_and_Work]]
+- [[Auditory_Attention_Decoding]]
 - [[Algorithm_Aversion]]
 - [[Algorithmic_Management]]
 - [[ANOVA]]
@@ -28,6 +35,7 @@ This is the catalog of everything in the wiki.
 - [[Boundary_Spanning]]
 - [[Brain_Computer_Interface]]
 - [[Chi_Squared_Test]]
+- [[Competitive_Queuing]]
 - [[Cold_Email_Strategy]]
 - [[Correlation]]
 - [[Counterproductive_Work_Behavior]]
@@ -50,6 +58,7 @@ This is the catalog of everything in the wiki.
 - [[Reproducibility]]
 - [[Research_Process]]
 - [[Sampling]]
+- [[Scalable_Neural_Interfaces]]
 - [[Situational_Strength]]
 - [[Steady_State_Visual_Evoked_Potentials]]
 - [[T_Test]]
@@ -60,6 +69,7 @@ This is the catalog of everything in the wiki.
 
 ## Summaries
 - [[2027_BCI_Internship_Tracker]]
+- [[BCI_Research_Opportunities_Investigation]]
 - [[2027_Resume_Summary]]
 - [[BCI_in_AR_VR_Research]]
 - [[BCI_Roadmap]]

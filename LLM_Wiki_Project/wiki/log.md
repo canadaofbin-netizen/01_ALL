@@ -56,3 +56,12 @@ Append-only chronological record of ingests, queries, and lint passes.
 - Renamed all 14 lecture PDFs to `_processed.pdf`.
 - Updated `index.md` and `overview.md` with all new pages.
 - Note: Lecture 10 was not present in the raw folder.
+
+## [2026-07-20] ingest | BCI Research Opportunities Investigation (17-page PDF)
+- Ingested `raw/assets/BCI Research Opportunities Investigation.pdf` — an in-depth analysis report on four next-generation BCI/neurotech research ecosystems.
+- **Summaries Created** (1): [[BCI_Research_Opportunities_Investigation]].
+- **Entities Created** (6): [[Kornysheva_Lab]], [[NAPLab]], [[Iverson_Lab]], [[Cambridge_NeuroWorks]], [[University_of_Birmingham]], [[Columbia_University]].
+- **Concepts Created** (3): [[Auditory_Attention_Decoding]], [[Competitive_Queuing]], [[Scalable_Neural_Interfaces]].
+- **Pages Merged** (4): New content merged into [[University_College_London]], [[Brain_Computer_Interface]], [[Electroencephalography]], [[Event_Related_Potentials]].
+- Renamed raw PDF to `_processed.pdf`.
+- Updated `index.md` and `overview.md` with all 10 new pages.
