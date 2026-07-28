@@ -65,3 +65,14 @@ Append-only chronological record of ingests, queries, and lint passes.
 - **Pages Merged** (4): New content merged into [[University_College_London]], [[Brain_Computer_Interface]], [[Electroencephalography]], [[Event_Related_Potentials]].
 - Renamed raw PDF to `_processed.pdf`.
 - Updated `index.md` and `overview.md` with all 10 new pages.
+
+## [2026-07-27] ingest | Human-AI Interaction Papers (2 PDFs)
+- Ingested 2 academic PDFs using parallel subagent architecture:
+  - `raw/assets/2023-78874-001.pdf` — Tang et al. (2023), *Journal of Applied Psychology*: "No Person Is an Island" (AI interaction, social affiliation, loneliness).
+  - `raw/assets/EBSCO-FullText-07_24_2026.pdf` — Tang, Koopman, McClean et al. (2022), *Academy of Management Journal*: "When Conscientious Employees Meet Intelligent Machines" (complementarity theory, role theory).
+- **Summaries Created** (2): [[Tang_et_al_2023]], [[Tang_Koopman_McClean_et_al_2022]].
+- **Concepts Created** (6): [[Attachment_Anxiety]], [[Complementarity_Theory]], [[Conscientiousness]], [[Role_Theory]], [[Social_Affiliation_Model]], [[Workplace_Loneliness]].
+- **Entities Created** (1): [[Pok_Man_Tang]].
+- **Pages Merged** (2): New empirical findings and thematic content merged into [[AI_and_Work]] and [[Job_Insecurity]].
+- Renamed both raw PDFs to `_processed.pdf`.
+- Updated `index.md` and `overview.md` with all 9 new pages.
