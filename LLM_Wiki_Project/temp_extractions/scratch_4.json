@@ -1,0 +1,67 @@
+{
+  "source_file": "scratch_4.txt",
+  "entities": [
+    {
+      "name": "Dr Metodi Siromahov",
+      "description": "Presenter and author of the lecture slides on reproducible research and open science."
+    },
+    {
+      "name": "Daryl Bem",
+      "description": "Cornell University psychologist whose work on precognition and academic advice explicitly advocated for HARKing and p-hacking."
+    },
+    {
+      "name": "John P. A. Ioannidis",
+      "description": "Medical researcher who formulated the mathematical framework for Positive Predictive Value (PPV) in his 2005 paper 'Why Most Published Research Findings Are False'."
+    },
+    {
+      "name": "Daniel Kahneman",
+      "description": "Nobel laureate author of 'Thinking: Fast and Slow' who later acknowledged the weak experimental evidence supporting social priming studies cited in his book."
+    },
+    {
+      "name": "Dorothy Bishop",
+      "description": "Developmental neuropsychologist who categorized key threats to scientific integrity, including publication bias, p-hacking, low power, and HARKing."
+    },
+    {
+      "name": "Open Science Movement",
+      "description": "An initiative aimed at reforming academic incentive structures and enhancing research transparency through pre-registration, open data, and reproducible code."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Reproducibility Crisis",
+      "description": "A widespread crisis in psychology, medicine, and neuroscience where a large proportion of published empirical findings fail to replicate."
+    },
+    {
+      "name": "Positive Predictive Value (PPV)",
+      "description": "The post-study probability that a published statistically significant finding reflects a true effect, calculated based on statistical power, significance level (alpha), and pre-study odds."
+    },
+    {
+      "name": "P-hacking",
+      "description": "The practice of manipulating data analysis, trying multiple testing options, or dropping data points until achieving a statistically significant p-value (<.05)."
+    },
+    {
+      "name": "HARKing",
+      "description": "Hypothesizing After the Results are Known; the practice of post-hoc framing unexpected statistical findings as if they were predicted prior to data collection."
+    },
+    {
+      "name": "Publication Bias",
+      "description": "The systemic tendency for journals to publish statistically significant findings while null or non-significant results remain unpublished in the 'file drawer'."
+    },
+    {
+      "name": "Preregistration",
+      "description": "The public archiving of hypotheses, experimental designs, and analysis plans prior to data collection to prevent post-hoc modifications and bias."
+    },
+    {
+      "name": "Reproducible Analysis",
+      "description": "Conducting data analysis using scripted programs (e.g., R) to create an explicit, repeatable record of analytical decisions and data processing."
+    }
+  ],
+  "claims": [
+    "A large-scale replication project of 100 top psychology journal studies found that only 36% produced significant results (p < .05), compared to 97% in the original publications.",
+    "Given median statistical power estimates of 8-31% in neuroscience and a low prior probability of novel hypotheses being true (~10%), over 60% of published positive findings are false positives.",
+    "Mismatch between what is best for science (transparent, high-quality research regardless of outcome) and what is best for scientists (producing high volumes of positive results) drives questionable research practices.",
+    "Questionable research practices like HARKing and p-hacking were historically encouraged by prominent academic career guides, such as Daryl Bem's chapter in 'The Compleat Academic'.",
+    "Adopting Open Science practices—preregistration, open data, and scripted reproducible code—is critical to mitigating publication bias, HARKing, and p-hacking."
+  ],
+  "summary": "This document consists of lecture slides by Dr Metodi Siromahov discussing the reproducibility crisis across psychology, neuroscience, and medicine. It examines how methodological flaws—such as low statistical power, publication bias (the file drawer problem), p-hacking, and HARKing—drastically lower the Positive Predictive Value (PPV) of published literature, resulting in high rates of false-positive claims. Using famous case studies like social priming and controversial publication advice, the lecture emphasizes that academic incentive structures currently reward volume of positive findings over research quality. It concludes by presenting Open Science solutions, including preregistration of hypotheses, open data sharing, and scripted data analysis in R to restore scientific rigor and transparency."
+}

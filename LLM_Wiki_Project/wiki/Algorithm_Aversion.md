@@ -1,10 +1,10 @@
 ---
 title: "Algorithm Aversion"
 description: "The tendency for humans to reject or distrust algorithmic decision-making, especially after observing errors."
-type: concept
-tags: ["ai", "psychology", "trust", "decision-making"]
-timestamp: 2026-07-15
-sources: ["[[Kim Lab Journal Club - Summer 2026.md]]"]
+type: "concept"
+tags: ["ai", "psychology", "trust", "decision-making", "concept"]
+timestamp: "2026-08-01"
+sources: ["[[Kim Lab Journal Club - Summer 2026.md]]", "1-s2.0-S0749597825000172-main.pdf"]
 ---
 
 # Algorithm Aversion

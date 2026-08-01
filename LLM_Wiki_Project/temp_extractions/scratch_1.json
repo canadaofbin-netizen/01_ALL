@@ -1,0 +1,55 @@
+{
+  "source_file": "scratch_1.txt",
+  "entities": [
+    {
+      "name": "Dr Metodi Siromahov",
+      "description": "Lecturer and author of the presentation on One-Way ANOVA."
+    },
+    {
+      "name": "R",
+      "description": "Statistical computing software environment used for executing ANOVA models and post-hoc pairwise tests."
+    },
+    {
+      "name": "afex",
+      "description": "An R package utilized for conducting Analysis of Variance (ANOVA)."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "One-Way ANOVA",
+      "description": "A statistical hypothesis test used to compare the means of three or more independent groups based on a single categorical independent variable."
+    },
+    {
+      "name": "F-statistic",
+      "description": "The test statistic computed in ANOVA as the ratio of mean square model variance to mean square error variance (MS_model / MS_error)."
+    },
+    {
+      "name": "Partitioning Variance",
+      "description": "The procedure of splitting total sum of squares (SStotal) into sum of squares explained by the model (SSmodel) and residual error sum of squares (SSerror)."
+    },
+    {
+      "name": "Eta-squared (η²)",
+      "description": "An effect size measure in ANOVA representing the proportion of total variance explained by group membership (SSmodel / SStotal)."
+    },
+    {
+      "name": "Bonferroni Correction",
+      "description": "A post-hoc adjustment method for multiple comparisons that multiplies p-values by the number of comparisons to control the familywise false-positive rate."
+    },
+    {
+      "name": "ANOVA Assumptions",
+      "description": "Requirements for valid ANOVA inference including interval/ratio DV, independent observations, homogeneity of variance (tested via Levene's test), and normal distribution of residuals."
+    },
+    {
+      "name": "Between-Subjects Design",
+      "description": "An experimental research design where separate, mutually exclusive groups of participants are exposed to different treatment conditions."
+    }
+  ],
+  "claims": [
+    "t-tests are appropriate for comparing two groups, while ANOVAs are required when comparing more than two groups or conditions.",
+    "The total variance in a dependent variable is partitioned into variance explained by group membership (SSmodel) and residual variance (SSerror).",
+    "A statistically significant F-statistic indicates overall group differences exist, but post-hoc pairwise tests are needed to pinpoint which specific groups differ.",
+    "Performing multiple post-hoc t-tests increases the risk of Type I errors (false positives), requiring p-value adjustments like the Bonferroni correction.",
+    "ANOVA is robust to violations of normality and homogeneity of variance assumptions when sample sizes across groups are equal."
+  ],
+  "summary": "This document presents lecture slides by Dr. Metodi Siromahov on One-Way Between-Subjects ANOVA. It explains the distinction between t-tests and ANOVA, demonstrates how total variance is partitioned into model and error sums of squares, and walks through calculating degrees of freedom, the F-statistic, and eta-squared effect size using a running speed dataset across three music tempo conditions. Additionally, it details executing ANOVA in R using the afex package, performing Bonferroni-corrected post-hoc pairwise comparisons, testing statistical assumptions, and structuring standard academic write-ups."
+}

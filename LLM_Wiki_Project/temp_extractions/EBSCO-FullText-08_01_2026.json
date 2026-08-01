@@ -1,0 +1,34 @@
+{
+  "source_file": "EBSCO-FullText-08_01_2026.pdf",
+  "entities": [
+    {
+      "name": "Artificial Intelligence (AI)",
+      "description": "Technology used to assist human employees by handling initial, repetitive, and well-codified tasks."
+    },
+    {
+      "name": "Human Employees (Agents)",
+      "description": "Workers who perform higher-level problem-solving and unscripted tasks following AI's initial work."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "AI-Augmented Employee Creativity",
+      "description": "The phenomenon where AI assistance increases the creativity of human employees by freeing them from mundane tasks."
+    },
+    {
+      "name": "Skill-Biased AI Augmentation",
+      "description": "The finding that the positive impacts of AI on creativity and performance are significantly greater for employees with higher domain expertise or job skills."
+    },
+    {
+      "name": "Sequential Division of Labor",
+      "description": "A workflow design where AI handles the initial, repetitive portion of a task, and human employees handle the subsequent, unstructured portion."
+    }
+  ],
+  "claims": [
+    "AI assistance in handling repetitive tasks increases employees' creativity in solving subsequent higher-level problems.",
+    "Enhanced creativity due to AI assistance leads to increased overall job performance and sales.",
+    "The positive effect of AI on employee creativity is skill-biased, meaning it is much more pronounced for higher-skilled employees.",
+    "AI assistance alters job design, leading to positive emotions and innovation for highly skilled workers, but increased stress and negative emotions for lower-skilled workers."
+  ],
+  "summary": "This article investigates how artificial intelligence (AI) affects employee creativity through a sequential division of labor. Through a field experiment at a telemarketing firm, the authors demonstrate that assigning repetitive lead-generation tasks to AI increases human employees' creativity during subsequent sales persuasion, thereby boosting sales. Crucially, this AI-augmented creativity is skill-biased, primarily benefiting higher-skilled employees. Qualitative interviews further reveal that this job design change fosters positive emotions and innovative problem-solving in experts, while often causing stress and demoralization among lower-skilled workers."
+}

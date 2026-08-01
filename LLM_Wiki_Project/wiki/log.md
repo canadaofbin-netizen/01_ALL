@@ -76,3 +76,20 @@ Append-only chronological record of ingests, queries, and lint passes.
 - **Pages Merged** (2): New empirical findings and thematic content merged into [[AI_and_Work]] and [[Job_Insecurity]].
 - Renamed both raw PDFs to `_processed.pdf`.
 - Updated `index.md` and `overview.md` with all 9 new pages.
+
+
+## Ingest Log - 2026-08-01 18:52:34
+- Processed `1-s2.0-S0191886922000599-main.pdf`: created/updated 3 entities and 3 concepts.
+- Processed `scratch_0.txt`: created/updated 4 entities and 8 concepts.
+- Processed `scratch_1.txt`: created/updated 3 entities and 7 concepts.
+- Processed `scratch_2.txt`: created/updated 3 entities and 10 concepts.
+- Processed `scratch_3.txt`: created/updated 3 entities and 8 concepts.
+- Processed `1-s2.0-S0749597825000172-main.pdf`: created/updated 1 entities and 4 concepts.
+- Processed `scratch_4.txt`: created/updated 6 entities and 7 concepts.
+- Processed `EBSCO-FullText-08_01_2026 (1).pdf`: created/updated 5 entities and 5 concepts.
+- Processed `How Perceived Lack of Benevolence Harms Trust of Artificial Intelligence Management.pdf`: created/updated 3 entities and 4 concepts.
+- Processed `Slow drift rate predicts ADHD symptomology over and above executive dysfunction.pdf`: created/updated 5 entities and 4 concepts.
+- Processed `kupffer-et-al-2024-detecting-careless-responding-in-multidimensional-forced-choice-questionnaires.pdf`: created/updated 4 entities and 6 concepts.
+- Processed `s10802-013-9715-2.pdf`: created/updated 4 entities and 5 concepts.
+- Processed `EBSCO-FullText-08_01_2026.pdf`: created/updated 2 entities and 3 concepts.
+- Processed `s10869-023-09911-w.pdf`: created/updated 3 entities and 4 concepts.

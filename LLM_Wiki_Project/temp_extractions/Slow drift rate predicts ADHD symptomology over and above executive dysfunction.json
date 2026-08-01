@@ -1,0 +1,50 @@
+{
+  "source_file": "Slow drift rate predicts ADHD symptomology over and above executive dysfunction.pdf",
+  "entities": [
+    {
+      "name": "Jason S. Feldman",
+      "description": "Author of the paper, affiliated with The Pennsylvania State University"
+    },
+    {
+      "name": "Cynthia Huang-Pollock",
+      "description": "Author of the paper, affiliated with The Pennsylvania State University"
+    },
+    {
+      "name": "The Pennsylvania State University",
+      "description": "Institution where the research was conducted"
+    },
+    {
+      "name": "Fast-dm",
+      "description": "Modeling program used to compute drift rate for choice discrimination and mental rotation tasks"
+    },
+    {
+      "name": "ADHD Rating Scale (ADHD-RS)",
+      "description": "Measure used for parent and teacher report on ADHD symptoms"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Drift rate",
+      "description": "A diffusion model parameter reflecting the efficiency or speed of evidence accumulation during decision-making"
+    },
+    {
+      "name": "Executive Function (EF)",
+      "description": "A set of cognitive processes that are necessary for the cognitive control of behavior, often found to be impaired in ADHD"
+    },
+    {
+      "name": "Diffusion Model (DM)",
+      "description": "A computational model of decision-making that considers the entirety of speed and accuracy performance data"
+    },
+    {
+      "name": "Bifactor model of ADHD",
+      "description": "A dimensional model of ADHD that includes a general ADHD factor as well as specific inattentive and hyperactive/impulsive factors"
+    }
+  ],
+  "claims": [
+    "Latent EF and drift rate factors each independently predict the general ADHD factor in a bifactor model of ADHD.",
+    "When both EF and drift rate are entered into the model, slow drift rate (but not EF) continues to predict elevated ADHD symptomology.",
+    "Slow drift rate represents a discrete cognitive correlate of ADHD, providing a more mechanistically specific explanation of cognitive deficits than broad EF measures.",
+    "Using drift rate to index task performance improves upon conventional approaches to measuring cognitive dysfunction in ADHD."
+  ],
+  "summary": "This paper investigates whether slow drift rate, an index of evidence accumulation speed derived from the diffusion model, better predicts parent and teacher ratings of ADHD than standard metrics of executive functioning (EF). Using structural equation modeling in a sample of 201 children, the study found that while poor EF and slow drift rate each independently predicted higher general ADHD symptomology, only drift rate continued to significantly predict symptoms when both were included in the model. The authors conclude that drift rate is a superior, mechanistically specific cognitive predictor of ADHD compared to traditional EF measures."
+}

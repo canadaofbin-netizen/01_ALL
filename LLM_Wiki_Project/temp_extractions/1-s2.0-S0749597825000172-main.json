@@ -1,0 +1,36 @@
+{
+  "source_file": "1-s2.0-S0749597825000172-main.pdf",
+  "entities": [
+    {
+      "name": "Generative artificial intelligence (AI)",
+      "description": "Machine-based systems capable of generating outputs such as predictions, content, recommendations, or decisions based on inputs."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "AI disclosure",
+      "description": "The act of informing audiences about the deployment of AI in one's work processes, products, or decisions."
+    },
+    {
+      "name": "Legitimacy",
+      "description": "The perception that an entity's actions or decisions are desirable, proper, or appropriate in a given setting. It serves as a mechanism linking AI disclosure to trust erosion."
+    },
+    {
+      "name": "Algorithm aversion",
+      "description": "A general skepticism toward algorithms due to possible errors, resulting in negative attitudes towards algorithmic agents compared to human agents."
+    },
+    {
+      "name": "Micro-institutional theory",
+      "description": "A theoretical framework emphasizing mental processes through which individuals make sense of social situations, used here to explain how AI disclosure reduces perceived legitimacy."
+    }
+  ],
+  "claims": [
+    "Disclosing the usage of AI for work tasks erodes trust in the user.",
+    "The reduction in trust following AI disclosure is mediated by reduced perceptions of legitimacy.",
+    "The negative effect of AI disclosure on trust holds across different framings, above and beyond algorithm aversion, and regardless of whether the disclosure is voluntary or mandatory.",
+    "Third-party exposure of AI usage leads to an even greater trust penalty than voluntary self-disclosure.",
+    "The trust penalty is attenuated, but not eliminated, among evaluators with favorable technology attitudes and perceptions of high AI accuracy.",
+    "A human actor disclosing AI usage is trusted less than an autonomous AI agent performing the same task due to role ambiguity."
+  ],
+  "summary": "This article investigates the consequences of disclosing generative AI usage in the workplace, revealing a \"transparency dilemma.\" Across 13 experiments, the authors demonstrate that individuals who disclose their AI use are consistently trusted less than those who do not. Drawing on micro-institutional theory, this trust penalty is explained by reduced perceptions of legitimacy, as AI involvement challenges normative expectations of human agency and effort. The negative effect is robust across various tasks and disclosure framings, and is especially detrimental when AI usage is exposed by a third party rather than voluntarily disclosed."
+}

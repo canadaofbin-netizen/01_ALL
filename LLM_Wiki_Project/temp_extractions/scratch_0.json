@@ -1,0 +1,64 @@
+{
+  "source_file": "scratch_0.txt",
+  "entities": [
+    {
+      "name": "M. Siromahov",
+      "description": "Author and instructor of the Introduction to Statistical Methods lecture series."
+    },
+    {
+      "name": "R",
+      "description": "Statistical programming environment used to fit and analyze linear regression models."
+    },
+    {
+      "name": "lm()",
+      "description": "R function used to build linear regression models."
+    },
+    {
+      "name": "summary()",
+      "description": "R function used to display regression parameters and summary statistics."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Linear Regression",
+      "description": "A statistical modeling method that describes the linear relationship between a continuous predictor variable (X) and outcome variable (Y) to make predictions."
+    },
+    {
+      "name": "Intercept",
+      "description": "The expected value of Y when X is 0, serving as the starting point of the regression line."
+    },
+    {
+      "name": "Slope",
+      "description": "The expected change in outcome variable Y for each unit increase in predictor variable X."
+    },
+    {
+      "name": "Residuals / Error",
+      "description": "The discrepancy between observed real data points and the values predicted by the regression line."
+    },
+    {
+      "name": "F-Test for Model Fit",
+      "description": "A hypothesis test calculating the ratio of model-explained variance to error variance to assess overall model predictive utility."
+    },
+    {
+      "name": "Coefficient of Determination (R²)",
+      "description": "An effect size metric representing the proportion of variance in outcome Y accounted for by the predictor model."
+    },
+    {
+      "name": "t-Test for Slope",
+      "description": "A hypothesis test evaluating whether the slope coefficient differs significantly from zero."
+    },
+    {
+      "name": "Assumptions of Linear Regression",
+      "description": "Required statistical criteria including interval/ratio scale data, linearity, homoscedasticity, no extreme outliers, and normally distributed residuals."
+    }
+  ],
+  "claims": [
+    "Linear regression creates a predictive statistical model for Y based on X, unlike correlation which only tests for association without predictive directionality.",
+    "A linear model can be expressed mathematically as Y = Intercept + (Slope * X) plus residual error.",
+    "Goodness of fit is tested using an F-test comparing model variance (MS_model) to residual variance (MS_error).",
+    "R² quantifies the proportion of variance in the outcome variable Y explained by the predictor X.",
+    "A t-test for the slope coefficient evaluates the null hypothesis that there is no relationship between predictor X and outcome Y.",
+    "Assumptions for linear regression include continuous data, linear relationship, homoscedasticity, lack of extreme outliers, and normally distributed residuals."
+  ],
+  "summary": "This document (Lecture 11 by M. Siromahov) introduces simple linear regression as a statistical modeling tool for predicting an outcome variable from a continuous predictor variable. It explains model components (intercept, slope, residual error), hypothesis testing (F-test for overall model fit and t-tests for slope significance), effect size via R², R implementation using lm() and summary(), standardized reporting guidelines, and core statistical assumptions."
+}

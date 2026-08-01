@@ -1,0 +1,240 @@
+M. Siromahov Introduction to  
+ Statistical Methods  
+  1 
+ 
+Lecture 13. Analysing Categorical Data  
+with chi squared (χ2) 
+ 
+Types of tests we are covering this year:  
+ 
+• Categorical variables have values that describe a characteristic of an 
+observation, like ‘what type’ or ‘which category.’ 
+• Categorical variables can be further characterised according to whether or 
+not they have a natural order: 
+o nominal, e.g. marital status (married, single, divorced, widowed) 
+o ordinal, e.g. burns (first, second, third degree) 
+ 
+ 
+ 
+ 
+ 
+M. Siromahov Introduction to  
+ Statistical Methods  
+  2 
+ 
+χ2 as a ‘goodness of fit’ test  
+• Does the observed data ‘fit’ our expectations if the null hypothesis were true?  
+• Example research question: Are births equally distributed across seasons?  
+• Data (number of births per season):  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ What is the likelihood for the observed count of births for each season, if 
+equal proportions of births are expected? 
+Hypotheses and expected frequencies 
+• If births occurred with equal frequency, the probability of births in each season 
+would be 0.25 (1/4) 
+• To obtain the expected count frequencies for each season, we divide the total 
+number of births by the number of seasons:  
+4700 ÷ 4 = 1175 
+or 
+4700 × 0.25 = 1175 
+• H0 = births occur with equal frequency across seasons  
+o P = (.25, .25, .25, .25) 
+• H1 = births do not occur with equal frequency across seasons  
+o P ≠ (.25, .25, .25, .25) 
+ 
+The χ2 statistic (chi2, pronounced “kai squared”) expresses the difference between 
+Observed and Expected frequencies: 
+ 
+Spring: 1243 Summer: 1194 
+Autumn: 1201 Winter: 1062 
+𝜒2 = ෍ ሺ𝑜𝑏𝑠𝑒𝑟𝑣𝑒𝑑𝑖 − 𝑒𝑥𝑝𝑒𝑐𝑡𝑒𝑑𝑖ሻ2
+𝑒𝑥𝑝𝑒𝑐𝑡𝑒𝑑𝑖
+⬚
+𝑖
+ M. Siromahov Introduction to  
+ Statistical Methods  
+  3 
+ 
+Calculating χ2 
+ 
+𝜒2 distribution for the null hypothesis 
+• Normal variables = the expected frequencies that would be observed if there 
+were no association between the categorical variables being studied. 
+• Sum of squared differences that are normally distributed yield a χ2 distribution 
+• χ2 is always positive 
+• df is the number of k groups/categories being added together minus 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Finding the critical χ2 value – anything larger than this will be too unlikely to result 
+from sampling error , therefore we can reject H0:  
+➔ For the χ2-distribution with 3 degrees of freedom 
+and an alpha level of p = .05, the critical χ2-value is 
+7.81.  
+Our χ2-value 15.7 > critical value 7.81 ,  so we can 
+reject the null hypothesis. 
+Category Observed 
+frequency 
+Expected 
+frequency 
+Difference Difference2 Difference2/ 
+Expected freq 
+Spring 1243 1175 68 4624 3.94 
+Summer 1194 1175 19 361 0.31 
+Autumn 1201 1175 26 676 0.58 
+Winter 1062 1175 -113 12769 10.87 
+     
+∑ = 15.7 
+χ2 
+df = k-1 
+M. Siromahov Introduction to  
+ Statistical Methods  
+  4 
+ 
+ 
+What is the exact probability of obtaining a χ2 = 15.7 or greater if the null 
+hypothesis was true?  
+ 
+Reporting the χ2 goodness-of-fit test 
+ 
+  
+0 5 10 15
+0.00 0.05 0.10 0.15 0.20 0.25 Chi−Square Distribution (df = 3)
+Chi−Square
+Density
+Out of 4700 births at St. Margaret’s Hospital in 2021, 1243 took 
+place in Spring, 1194 in the Summer, 1201 in the Autumn, and 1062 
+in the Winter season. A chi -square goodness of fit test was 
+conducted to test whether the birth probabilities were identical 
+across all four seasons. The results were significant, χ2(3, 
+N=4700)=15.7, p<.001, suggesting that births did not occur with 
+equal frequency across seasons. M. Siromahov Introduction to  
+ Statistical Methods  
+  5 
+ 
+The χ2 test of independence (or association)  
+The test of independence is a more complex version of the chi squared test which 
+quantifying the relationship between two categorical variables.  
+Example: Do Liberals and Conse rvatives differ in their preference of pet (cats vs. 
+dogs)? 
+• H0: No association between political views and pet choice  
+• Ha: There is an association between political views and pet choice  
+Observed freqs Cat Dog 
+Liberals 31 14 
+Conservatives 16 39 
+ 
+To calculate the Expected frequencies ( if the null hypothesis  is true), we need to 
+make a contingency table calculating the total number of Liberals, Conservatives, 
+Cat owners, and Dog owners:  
+Observed freqs Cat Dog TOT AL 
+Liberals 31 14 45 
+Conservatives 16 39 55 
+TOT AL 47 53 100 
+The expected fre quency for each cell is (the Total for it s row × the Total for its 
+column) ÷ the grand total ሺ100ሻ: 
+Expected freqs Cat Dog TOTAL 
+Liberals ሺ45 × 47ሻ ÷ 100
+= 𝟐𝟏. 𝟏𝟓 
+ሺ45 × 53ሻ ÷ 100
+= 𝟐𝟑. 𝟖𝟓 
+45 
+Conservatives ሺ55 × 47ሻ ÷ 100
+= 𝟐𝟓. 𝟖𝟓 
+ሺ55 × 53ሻ ÷ 100
+= 𝟐𝟗. 𝟏𝟓 
+55 
+TOTAL 47 53 100 
+The χ2 value is calculated in the same way as in the goodness-of-fit test: 
+ 
+ 
+ 
+ 
+ 
+ 
+𝜒2 = ෍ ෍  ൫𝑜𝑏𝑠𝑒𝑟𝑣𝑒𝑑𝑖𝑗 − 𝑒𝑥𝑝𝑒𝑐𝑡𝑒𝑑𝑖𝑗൯
+2
+𝑒𝑥𝑝𝑒𝑐𝑡𝑒𝑑𝑖𝑗
+𝑐
+𝑗=1
+𝑟
+𝑖=1
+  
+ 
+𝜒2 = ሺ31 − 21.15ሻ2
+21.15 + ሺ14 − 23.85ሻ2
+23.85 + ሺ16 − 25.85ሻ2
+25.85 + ሺ39 − 29.15ሻ2
+29.15 = 15.74  
+ M. Siromahov Introduction to  
+ Statistical Methods  
+  6 
+ 
+Finding the degrees of freedom: 𝑑𝑓 = ሺ𝑁𝑟𝑜𝑤𝑠 − 1ሻ × ሺ𝑁𝑐𝑜𝑙𝑢𝑚𝑛𝑠 − 1ሻ = 1 
+Calculating the p-value for χ2=15.74 with 1 DF:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Performing a χ2 test in R 
+ 
+Notice that chisq() by default runs the test with a continuity correction, which is 
+used when the sample size is too small ( when any of the expected frequencies in 
+any of the cells of the contingency table is 5 or less – but this isn’t a hard rule ). To 
+run the test without correction, add correct = FALSE to the formula: 
+ 
+0 5 10 15
+0.0 0.2 0.4 0.6 0.8
+Chi−Square Distribution (df = 1)
+Chi−Square
+Density
+M. Siromahov Introduction to  
+ Statistical Methods  
+  7 
+ 
+Effect size: Phi (φ) and Cramer’s V  
+For a 2×2 contingency table, use Phi φ 
+ 
+ 
+ 
+For contingency tables bigger than 2×2, use Crame r’s V , where k= field with fewest 
+number of categories:  
+𝜑 =  ඨ 𝜒2
+𝑁 × ሺ𝑘 − 1ሻ
+ 
+ 
+Reporting the chi-square test of independence 
+ 
+Assumptions of the test: 
+• The data in the cells should be frequencies, or counts of cases  
+• The levels (or categories) of the variables are mutually exclusive.  
+• Each subject may contribute data to one and only one cell.  
+• The study groups must be independent and not related.  
+• There are 2 variables, and both are measured as categories. 
+• The expected cell frequencies should be greater than 5.  
+𝜑 =  ඨ𝜒2
+𝑁 = ඨ14.18
+100 = 0.38 
+A χ2 test of independence revealed a significant association between 
+political views and pet choices, χ2(1, N = 100) = 14.18, p<.001, φ 
+= .38. Individuals with liberal political views were more likely to 
+choose cats than dogs as pets while individuals with conservative 
+views were more likely to choose dogs than cats.  

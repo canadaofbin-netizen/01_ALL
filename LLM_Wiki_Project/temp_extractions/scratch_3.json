@@ -1,0 +1,60 @@
+{
+  "source_file": "scratch_3.txt",
+  "entities": [
+    {
+      "name": "M. Siromahov",
+      "description": "Lecturer and author of the Introduction to Statistical Methods course material."
+    },
+    {
+      "name": "R",
+      "description": "Programming language and statistical software environment used to execute non-parametric statistical tests and compute exact or Monte Carlo p-values."
+    },
+    {
+      "name": "Yates",
+      "description": "F. Yates (1934), statistician known for introducing continuity corrections in statistical tests."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Non-parametric Tests",
+      "description": "A class of distribution-free statistical tests that make weak assumptions about the underlying population distribution and operate primarily on ranked data."
+    },
+    {
+      "name": "Ranking",
+      "description": "The procedure of converting raw numerical scores into ordered positions (from rank 1 to N), handling tied scores by assigning average ranks."
+    },
+    {
+      "name": "Wilcoxon Rank-Sum Test / Mann-Whitney U-Test",
+      "description": "A non-parametric statistical test used to compare central tendencies (medians) of two independent sample groups when normality assumptions are violated."
+    },
+    {
+      "name": "Wilcoxon Signed-Rank Test",
+      "description": "A non-parametric statistical test used to evaluate paired or repeated-measures sample data by examining the symmetry of difference scores around zero."
+    },
+    {
+      "name": "Kruskal-Wallis Test",
+      "description": "A non-parametric alternative to one-way ANOVA used to determine if three or more independent groups differ significantly in their overall score distributions."
+    },
+    {
+      "name": "Shapiro-Wilk Test",
+      "description": "A test of normality used to determine whether a dataset significantly deviates from a normal distribution."
+    },
+    {
+      "name": "Statistical Power",
+      "description": "The probability that a statistical test will detect a true effect; non-parametric tests have less power than parametric tests when normality holds due to ranking information loss."
+    },
+    {
+      "name": "Bonferroni Correction",
+      "description": "A post-hoc adjustment method that multiplies individual p-values by the number of pairwise comparisons to prevent type I error inflation."
+    }
+  ],
+  "claims": [
+    "Non-parametric tests do not assume data are drawn from a specific normal distribution, making them suitable when normality is violated, extreme outliers exist, sample sizes are small, or medians are preferred over means.",
+    "Most non-parametric tests function by ranking raw data and evaluating the ranks, making results robust against extreme scores.",
+    "The Wilcoxon rank-sum test (or Mann-Whitney U-test) serves as a non-parametric alternative to the independent two-sample t-test.",
+    "The Wilcoxon signed-rank test serves as a non-parametric alternative to the paired-samples t-test, testing whether the median difference between paired observations equals zero.",
+    "The Kruskal-Wallis test serves as a non-parametric alternative to one-way ANOVA, testing whether three or more independent groups come from identical populations.",
+    "While non-parametric tests avoid distribution assumptions, they are generally less powerful than parametric tests when parametric assumptions are met because ranking loses information about score magnitudes."
+  ],
+  "summary": "This document consists of Lecture 14 notes on non-parametric statistical tests from M. Siromahov's 'Introduction to Statistical Methods' course. It explains the rationale for using non-parametric (distribution-free) methods over parametric equivalents (such as t-tests and ANOVA) when assumptions like normality are violated, outliers are present, or sample sizes are small. The lecture details three key non-parametric tests: the Wilcoxon Rank-Sum test (Mann-Whitney U-test) for independent two-sample comparisons, the Wilcoxon Signed-Rank test for paired-sample comparisons, and the Kruskal-Wallis test for comparing three or more independent groups. For each test, it outlines hypotheses, step-by-step data ranking procedures, R execution commands, post-hoc Bonferroni corrections, and standard reporting guidelines. Finally, it notes that while ranking protects against distributional violations, it reduces statistical power relative to parametric tests due to the loss of information regarding score magnitudes."
+}

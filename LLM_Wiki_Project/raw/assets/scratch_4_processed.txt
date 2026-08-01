@@ -1,0 +1,329 @@
+06/02/2024
+1
+Reproducible research
+Dr Metodi Siromahov
+Outline
+• The reproducibility crisis in psychology
+• Calculating the predictive value of research
+• Threats to reproducibility
+• What can we do to fix science?
+1
+206/02/2024
+2
+Reproducibility crisis
+• This phrase was coined in the early 2000s to describe growing concern 
+that many effects in the published literature were not real 
+• This was partly because Professor Daryl Bem of Cornell University 
+published a study suggesting that people could see into the future….
+2005. PLoS Medicine, 2(8), e124. doi: 10.1371/journal.pmed.0020124
+Social priming and nudges
+Daniel Kahneman’s “Thinking: Fast and Slow” (2011)
+• Reviews lots of research on biases in intuitive 
+(automatic) thinking 
+• Many studies based on social priming
+• Subtle cues can have profound effects on behaviour
+• Write about unethical deeds -> need to wash hands
+• Read words about old age -> walk more slowly
+3
+406/02/2024
+3
+Social priming and nudges
+“Disbelief is not an option.
+The results are not made up,
+nor are they statistical
+flukes.
+You have no choice but to
+accept that the major
+conclusions of these studies
+are true.
+More important, you must
+accept that they are true
+about you.”
+The reproducibility crisis 
+• Large team attempted to replicate 100 
+studies in top psychology journals 
+• 36% of replications had significant results 
+(p<.05) vs. 97% of original studies 
+• 47% of original effect sizes were in the 95% 
+confidence interval of the replication effect 
+size;
+• 39% of effects were subjectively rated to 
+have replicated the original result 
+https://www.science.org/doi/10.1126/science.aac4716
+5
+606/02/2024
+4
+Social priming and nudges
+“Thinking: Fast and Slow” ten years on…
+• Only 12-46% of studies are replicable
+• Critique
+• Kahneman (2012): 
+“your field is now the poster child for doubts
+about the integrity of psychological research”
+“The experimental evidence for the ideas I
+presented in that chapter was significantly
+weaker than I believed when I wrote it. …
+I knew all I needed to know to moderate my
+enthusiasm … but I did not think it through.”
+Social priming and nudges
+• “Nudge” was another best-seller on how subtle 
+cues can nudge people to change their behaviour
+• Huge implications for libertarian public policy; many 
+governments set up Nudge Units 
+Part 1 - Part 2
+7
+806/02/2024
+5
+Which of these are real effects?
+• Tests of implicit racial bias
+• Power poses
+• Facial feedback: forcing yourself to smile makes you feel happier
+• Ego depletion: willpower is a finite resource
+Gervais & Norenzayan (2012): 
+• Exposing people to subtle cues related to analytical thinking decreases their religious 
+belief)
+• (manipulation: images of a person thinking; a hard to read text font)
+9
+1206/02/2024
+6
+Author’s analysis and response: 
+http://willgervais.com/blog/2017/3/2/post-publication-peer-review
+13
+1406/02/2024
+7
+It’s not just social psychology!
+• Medicine (e.g., cancer research)
+• Neuroscience (esp. clinical and computational)
+• Brain imaging
+• Pharmacological research
+Positive predictive value
+What is the probability that a significant research finding you read 
+about in the literature is actually true? 
+𝑃𝑃𝑉 = 𝑝 𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑟𝑒𝑠𝑢𝑙𝑡
+𝑝 𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑟𝑒𝑠𝑢𝑙𝑡 + 𝑝(𝑓𝑎𝑙𝑠𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑟𝑒𝑠𝑢𝑙𝑡)
+𝑝 𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑟𝑒𝑠𝑢𝑙𝑡 = 𝑝(ℎ𝐼𝑠𝑇𝑟𝑢𝑒) ∗ (1 − β)
+𝑝 𝑓𝑎𝑙𝑠𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑟𝑒𝑠𝑢𝑙𝑡 = 1 − 𝑝 ℎ𝐼𝑠𝑇𝑟𝑢𝑒 ∗ α
+Ioannidis, J. P . (2005). Why most published research findings are false. PLoS medicine, 2(8), e124.
+15
+1606/02/2024
+8
+Positive predictive value
+What is the probability that a significant research finding you read 
+about in the literature is actually true? 
+𝑃𝑃𝑉 = 𝑝 𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑟𝑒𝑠𝑢𝑙𝑡
+𝑝 𝑡𝑟𝑢𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑟𝑒𝑠𝑢𝑙𝑡 + 𝑝(𝑓𝑎𝑙𝑠𝑒 𝑝𝑜𝑠𝑖𝑡𝑖𝑣𝑒 𝑟𝑒𝑠𝑢𝑙𝑡)
+= 𝑝(ℎ𝐼𝑠𝑇𝑟𝑢𝑒) ∗ (1 − β) 
+𝑝(ℎ𝐼𝑠𝑇𝑟𝑢𝑒) ∗ (1 − β) + 1 − 𝑝 ℎ𝐼𝑠𝑇𝑟𝑢𝑒 ∗ α 
+Statistical Power 
+Alpha level  
+Probability that the hypothesis 
+is true (before study) 
+Positive predictive value
+What is the probability that a significant research finding you read 
+about in the literature is actually true? 
+𝑃𝑃𝑉 = 𝑝 ℎ𝐼𝑠𝑇𝑟𝑢𝑒  ∗  .80
+𝑝 ℎ𝐼𝑠𝑇𝑟𝑢𝑒  ∗  .80 + 1 − 𝑝 ℎ𝐼𝑠𝑇𝑟𝑢𝑒 ∗ .05 
+Statistical Power 
+assumed to be .8
+Alpha level
+Typically set 
+to .05  
+17
+1806/02/2024
+9
+Positive predictive value
+If probability that H = True is 80%, our PPV is .98. This means that out of 
+100 studies in the literature that find a positive result, 2 will be false.  
+𝑃𝑃𝑉 = .80 ∗ .80 
+.80 ∗ .80 + 1 − .80 ∗ .05 =  .98
+However, 80% is probably an overestimate. 
+Remember: if we are certain a hypothesis is true, 
+then there would be no point in doing a study.. 
+Positive predictive value
+• In highly novel areas it would not be unreasonable to estimate that 
+only 10% of hypotheses are true  
+• If probability that the hypothesis is true is only 10%, then our PPV is 
+.64. This means out of 100 studies in the literature that find a positive 
+result, 36 will be false.
+𝑃𝑃𝑉 = .10 ∗  .80 
+.10 ∗ .80 + 1 − .10 ∗ 0.05 =  .64
+19
+2006/02/2024
+10
+But most studies are underpowered
+𝑃𝑃𝑉 = .10 ∗ .20 
+.10 ∗  0.2 + 1 − .10 ∗ 0.05 =  .31
+• Empirical estimates of the power of studies in neuroscience 
+suggest median power of published studies is 8%-31% 
+(Button et al, 2013) 
+• If probability that the hypothesis is true is 10% and power is 
+20%, then our PPV is .31. 
+➔ out of 100 studies in the literature that find a positive 
+result, 69 will be false.
+Threats to reproducibility
+21
+2206/02/2024
+11
+The obvious problems
+• Fraud
+• Sloppiness
+• https://forbetterscience.com/2024/01/02/dana-
+farberications-at-harvard-university/
+• https://www.nytimes.com/interactive/2022/10/29/o
+pinion/science-fraud-image-manipulation-
+photoshop.html
+More intractable problems
+• Poorly defined constructs
+• Poorly operationalised constructs
+• Huge variability in how the same data is analysed
+23
+2406/02/2024
+12
+Swann Jr, W. B., Buhrmester, M. D., Gómez, A., Jetten, J., Bastian, B., Vázquez, A., ... & Zhang, A. (2014). What makes a group worth dying for? Identity fusion 
+fosters perception of familial ties, promoting self-sacrifice. Journal of personality and social psychology, 106(6), 912.
+More intractable problems
+• Poorly defined constructs
+• Poorly operationalised constructs
+• Huge variability in how the same data is analysed
+• Authors misinterpreting or outright not reading 
+earlier papers
+25
+2606/02/2024
+13
+Other threats to the scientific process
+P-hackingPublication bias Low power HARKing
+Bishop (2019) 
+Nature 568, 435
+Publication bias 
+• Not many studies with null results get 
+published – instead, they end up in 
+researcher’s “file drawer” . 
+• This is a problem, because given the typical 
+.05 significance level, 1 in 20 studies 
+looking for an effect that does not exist will 
+find a significant p value. 
+• That one study is more likely to end up in 
+the literature and be read, leading people to 
+conclude that the effect does exist. 
+File drawer problem
+27
+2806/02/2024
+14
+Low power
+• Power depends on sample size and effect size 
+• Many studies in psychology and neuroscience have 
+small samples
+• Most effects we look for are small because we are 
+looking at complex phenomenon 
+HARKing
+• HARKing: Hypothesising after the results are known
+• Hypotheses should be set in advance, based on the 
+literature, before you collect data. 
+• If you find something other than what you expect, you 
+may feel like you should change your hypotheses so 
+that you get the “right” answer.. but this causes a fatal 
+flaw in the scientific process. 
+29
+3006/02/2024
+15
+Do not do this! 
+Which Article Should You Write?
+There are two possible articles you can write: (a) the article you planned to write 
+when you designed your study or (b) the article that makes the most sense now 
+that you have seen the results. They are rarely the same, and the correct answer 
+is (b).
+Writing the Empirical Journal Article
+Daryl J. Bem
+The Compleat Academic: A Practical Guide for the Beginning Social 
+Scientist, 2nd Edition. Washington, DC: American Psychological 
+Association, 2004.
+“This book provides invaluable guidance that will help new academics plan, 
+play, and ultimately win the academic career game.”
+Explicitly advises 
+HARKing!
+p-hacking
+• We have to make lots of decisions when we analyse data 
+• If we try all the different possibilities and only report the one that gives us 
+the “right” answer (p<.05) we increase the chances of reporting a false 
+finding
+31
+3206/02/2024
+16
+Do not do this! 
+re Data Analysis: Examine them from every angle. Analyze the sexes separately. 
+Make up new composite indexes. If a datum suggests a new hypothesis, try to 
+find additional evidence for it elsewhere in the data.  If you see dim traces of 
+interesting patterns, try to reorganize the data to bring them into bolder relief. If 
+there are participants you don’t like, or trials, observers, or interviewers who 
+gave you anomalous results, drop them (temporarily). Go on a fishing expedition 
+for something— anything —interesting.
+Writing the Empirical Journal Article
+Daryl J. Bem
+The Compleat Academic: A Practical Guide for the Beginning Social 
+Scientist, 2nd Edition. Washington, DC: American Psychological 
+Association, 2004.
+Explicitly advises 
+p hacking!
+Summary 
+33
+3406/02/2024
+17
+Open science as a solution
+Science has an incentive problem
+What’s best for 
+science
+Transparent and 
+high-quality 
+research, regardless 
+of outcome
+What’s best for 
+scientists
+Producing a lot of 
+“good results”
+see Nosek, Spies & Motyl (2012). Perspectives on Psychological Science, 7(6): 615–631
+35
+3606/02/2024
+18
+Open science 
+• The Open Science movement has grown 
+out of concern about reproducibility 
+• It aims to change the incentive structures 
+in science and increase transparency
+Preregistration 
+• Researchers submit a detailed plan of 
+their study including hypotheses, 
+methods and analysis decisions on a 
+platform 
+• Reduces the possibility of intention or 
+unintentional HARKing and p-hacking 
+• Increases the publication of null 
+findings
+37
+3806/02/2024
+19
+Open data 
+• Share your data! 
+• We have used lots of open data sets in 
+practicals on this course
+• It allows others to directly reproduce 
+analysis which helps identify errors 
+• It also means data can be used for other 
+purposes to answer new research 
+questions (secondary data analysis), 
+which makes the most of existing data. 
+Reproducible analysis
+• Conducting data analysis using a script-based program 
+like R increases computation reproducibility: 
+• It is a detailed record of your analytical decisions
+• It allows scientists to easily reproduce your results with 
+the same data 
+• It also makes replication much easier as the code can 
+be applied to a new dataset from a different study. 
+39
+4006/02/2024
+20
+Further reading
+https://retractionwatch.com/
+Thank you
+41
+42

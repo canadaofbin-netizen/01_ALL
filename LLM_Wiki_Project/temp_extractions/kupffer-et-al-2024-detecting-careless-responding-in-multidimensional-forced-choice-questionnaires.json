@@ -1,0 +1,56 @@
+{
+  "source_file": "kupffer-et-al-2024-detecting-careless-responding-in-multidimensional-forced-choice-questionnaires.pdf",
+  "entities": [
+    {
+      "name": "Rebekka Kupffer",
+      "description": "First author of the study, from University of Kaiserslautern-Landau."
+    },
+    {
+      "name": "Susanne Frick",
+      "description": "Co-author of the study, from University of Mannheim and TU Dortmund University."
+    },
+    {
+      "name": "Eunike Wetzel",
+      "description": "Co-author of the study, from University of Kaiserslautern-Landau."
+    },
+    {
+      "name": "Thurstonian item response theory model",
+      "description": "A mathematical model used to analyze data from forced-choice questionnaires and estimate normative trait levels."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Multidimensional forced-choice (MFC) format",
+      "description": "A questionnaire response format where participants rank multiple items (often in blocks like triplets) according to how well the items describe them, rather than rating items individually."
+    },
+    {
+      "name": "Careless responding",
+      "description": "A response bias characterized by unmotivated or inattentive participant behavior, resulting in responses that do not reflect the full item content."
+    },
+    {
+      "name": "LongOrder indices",
+      "description": "Indices adapted from LongString indices to the MFC format, measuring how often a participant repeatedly chooses the same rank order in a row."
+    },
+    {
+      "name": "Triplet variance",
+      "description": "An index expressing the variance of a person's ranking patterns across all triplets in a questionnaire."
+    },
+    {
+      "name": "Consistency score",
+      "description": "A score based on the Thurstonian IRT model indicating whether a participant's responses are consistent with their latent trait levels."
+    },
+    {
+      "name": "Instructed response triplets",
+      "description": "Special items inserted into a questionnaire explicitly instructing the participant on how to rank the statements, used as an attention check."
+    }
+  ],
+  "claims": [
+    "Careless responding is an important issue that affects data quality in multidimensional forced-choice (MFC) questionnaires, just as it does in rating scales.",
+    "Latent profile analysis indicates that while the majority of participants (76-84%) respond carefully, a distinct subset exhibits different levels and types of careless responding.",
+    "Indices such as triplet variance, LongOrderMax, instructed response triplets, and response time index perform best in detecting careless responding in MFC data.",
+    "The Mahalanobis distance index did not prove to be an effective measure for detecting careless responding in the MFC format.",
+    "Removing participants flagged by the most effective careless responding indices slightly improves the reliability estimates of the measured scales.",
+    "The manifestation of careless responding increases towards the end of the survey."
+  ],
+  "summary": "This study explores methods for detecting careless responding in multidimensional forced-choice (MFC) questionnaires. The authors adapted existing indices from rating scale formats and developed new ones specific to MFC data, such as triplet variance and LongOrder indices. Through an online survey and a simulation study, they demonstrated that careless responding exists in MFC formats and can be effectively identified using a combination of indices like response time, rank order repetition, triplet variance, and instructed response triplets. The research provides practical recommendations for screening and improving data quality in MFC assessments."
+}

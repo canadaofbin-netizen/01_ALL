@@ -1,10 +1,10 @@
 ---
 title: "Algorithmic Management"
 description: "The use of algorithms and AI to manage, evaluate, and direct human workers."
-type: concept
-tags: ["management", "ai", "work", "hr"]
-timestamp: 2026-07-15
-sources: ["[[Kim Lab Journal Club - Summer 2026.md]]"]
+type: "concept"
+tags: ["management", "ai", "work", "hr", "concept"]
+timestamp: "2026-08-01"
+sources: ["[[Kim Lab Journal Club - Summer 2026.md]]", "EBSCO-FullText-08_01_2026 (1).pdf"]
 ---
 
 # Algorithmic Management

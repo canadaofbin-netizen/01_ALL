@@ -1,0 +1,37 @@
+{
+  "source_file": "1-s2.0-S0191886922000599-main.pdf",
+  "entities": [
+    {
+      "name": "Multidimensional forced choice (MFC) personality tests",
+      "description": "Assessments used in industrial and organizational psychology to measure traits while minimizing response biases."
+    },
+    {
+      "name": "Thurstonian Item Response Theory (TIRT)",
+      "description": "A modern psychometric scoring method used to obtain normative scores from MFC ranking data."
+    },
+    {
+      "name": "Partially ipsative (PI) scoring",
+      "description": "A heuristic scoring method that introduces variation in scale scores to alleviate ipsativity problems."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Heteropolar blocks",
+      "description": "Item blocks in MFC measures that mix both negatively and positively keyed statements to improve parameter estimation accuracy."
+    },
+    {
+      "name": "Negatively keyed statements",
+      "description": "Questionnaire items where disagreement indicates a higher level of the trait being measured, often used to counteract careless responses."
+    },
+    {
+      "name": "Ipsativity problem",
+      "description": "The limitation in traditional MFC scoring where total scores are uniform across individuals, preventing between-person comparisons."
+    }
+  ],
+  "claims": [
+    "The Thurstonian Item Response Theory (TIRT) scoring method, combined with higher intrablock discrimination, yields better reliability and criterion-related validity than the partially ipsative (PI) scoring method.",
+    "Sufficient reliability and validity can be achieved by using highly discriminating 20-40% heteropolar blocks in conjunction with the TIRT model.",
+    "Criterion-related validity in MFC measures is significantly influenced by the proportion and design of heteropolar blocks."
+  ],
+  "summary": "This research investigates how negatively keyed statements within multidimensional forced choice (MFC) personality measures affect reliability and criterion-related validity. Through Monte Carlo simulations and empirical data, the authors compare partially ipsative (PI) and Thurstonian Item Response Theory (TIRT) scoring methods. The findings suggest that TIRT scoring, particularly when using 20-40% highly discriminating heteropolar blocks, provides superior psychometric properties and criterion-related validity compared to PI scoring."
+}

@@ -1,0 +1,42 @@
+{
+  "source_file": "s10869-023-09911-w.pdf",
+  "entities": [
+    {
+      "name": "Philseok Lee",
+      "description": "Author of the paper, from George Mason University"
+    },
+    {
+      "name": "Sean Joo",
+      "description": "Author of the paper, from The University of Kansas"
+    },
+    {
+      "name": "Mina Son",
+      "description": "Author of the paper, from George Mason University"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Multidimensional forced-choice (MFC) measures",
+      "description": "A testing format that requires respondents to choose among multiple statements representing different constructs, designed to resist faking."
+    },
+    {
+      "name": "Thurstonian item response theory (TIRT) model",
+      "description": "An item response theory model applied to analyze forced-choice format data based on Thurstone's law of comparative judgment."
+    },
+    {
+      "name": "lz person-fit statistic",
+      "description": "A model-based method used to detect misfitting respondents whose responses do not align with the expected IRT model."
+    },
+    {
+      "name": "Careless responding",
+      "description": "A response set where participants respond without consideration or motivation, adding noise and bias to measurement data."
+    }
+  ],
+  "claims": [
+    "Careless responses are at least as common, if not more, on MFC measures compared to Likert-type scales due to higher cognitive load and test fatigue.",
+    "The lz person-fit statistic, in conjunction with the TIRT model, effectively controls Type I errors when detecting careless respondents.",
+    "Using empirical critical values yields significantly higher power rates in detecting careless respondents compared to theoretical critical values.",
+    "Removing respondents identified as careless by the lz person-fit statistic improves both the empirical reliability and criterion-related validity of MFC data."
+  ],
+  "summary": "This study addresses the lack of research on careless responding in multidimensional forced-choice (MFC) measures. The authors propose a method combining the lz person-fit statistic with the Thurstonian item response theory (TIRT) model to detect careless respondents. Empirical results show that MFC tests induce more cognitive load and fatigue than Likert scales, leading to careless responses. Simulation studies confirm that the lz statistic can accurately identify these careless responses without excessive misclassification. Furthermore, excluding these identified careless respondents significantly enhances the reliability and validity of the psychometric data."
+}

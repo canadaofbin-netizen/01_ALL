@@ -1,0 +1,68 @@
+{
+  "source_file": "scratch_2.txt",
+  "entities": [
+    {
+      "name": "M. Siromahov",
+      "description": "Author and instructor of the 'Introduction to Statistical Methods' lecture series."
+    },
+    {
+      "name": "St. Margaret's Hospital",
+      "description": "Healthcare institution referenced in the seasonal birth frequency dataset example."
+    },
+    {
+      "name": "R",
+      "description": "Statistical computing software environment used for performing Chi-Squared tests."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Categorical Variables",
+      "description": "Variables describing qualitative characteristics, classified into nominal (unordered) and ordinal (ordered) categories."
+    },
+    {
+      "name": "Chi-Squared (χ²) Goodness-of-Fit Test",
+      "description": "Statistical hypothesis test assessing whether observed categorical sample frequencies match a theoretical expected distribution."
+    },
+    {
+      "name": "Chi-Squared (χ²) Test of Independence",
+      "description": "Statistical test evaluating the association or relationship between two categorical variables arranged in a contingency table."
+    },
+    {
+      "name": "Chi-Squared Distribution",
+      "description": "A non-negative probability distribution formed by summing squared independent standard normal variables, parameterized by degrees of freedom."
+    },
+    {
+      "name": "Expected Frequencies",
+      "description": "Calculated category counts expected under the assumption that the null hypothesis is true."
+    },
+    {
+      "name": "Degrees of Freedom (df)",
+      "description": "The number of independent parameters: (k - 1) for goodness-of-fit tests, or (Rows - 1) × (Columns - 1) for independence tests."
+    },
+    {
+      "name": "Contingency Table",
+      "description": "A matrix layout displaying the multivariate frequency distribution of two categorical variables."
+    },
+    {
+      "name": "Yates' Continuity Correction",
+      "description": "An adjustment applied in Chi-Squared tests for small sample sizes or when expected cell frequencies are 5 or less."
+    },
+    {
+      "name": "Phi Coefficient (φ)",
+      "description": "A measure of effect size indicating the strength of association between two binary categorical variables in a 2×2 table."
+    },
+    {
+      "name": "Cramer's V",
+      "description": "An effect size metric used to quantify association strength in contingency tables larger than 2×2."
+    }
+  ],
+  "claims": [
+    "Categorical variables are divided into nominal variables without natural ordering and ordinal variables with natural ordering.",
+    "A Chi-Squared goodness-of-fit test on 4,700 births at St. Margaret's Hospital demonstrated a statistically significant deviation from equal seasonal distribution (χ²(3, N=4700) = 15.7, p < .001).",
+    "The Chi-Squared test statistic is always non-negative because it sums squared differences between observed and expected frequencies relative to expected frequencies.",
+    "A Chi-Squared test of independence demonstrated a significant association between political views and pet choice (χ²(1, N=100) = 14.18, p < .001, φ = .38), with liberals preferring cats and conservatives preferring dogs.",
+    "In R, the chisq function applies continuity correction by default, which can be overridden by setting correct = FALSE.",
+    "Valid Chi-Squared tests require count data, mutually exclusive categories, independent observations, and expected cell frequencies greater than 5."
+  ],
+  "summary": "Lecture notes by M. Siromahov covering statistical analysis of categorical data using Chi-Squared (χ²) tests. The material defines nominal and ordinal variables, details the Chi-Squared goodness-of-fit test with seasonal birth data, and explains the Chi-Squared test of independence using a political view and pet preference example. It provides formulas for calculating expected frequencies, test statistics, degrees of freedom, and effect sizes (Phi coefficient and Cramer's V), outlines key test assumptions, and explains R software execution."
+}

@@ -1,10 +1,10 @@
 ---
-type: concept
+type: "concept"
 title: "Linear Regression"
 description: "A statistical model used to predict an outcome variable based on one or more predictor variables."
-tags: [statistics, modeling, regression]
-timestamp: 2026-07-18
-sources: ["Lecture 11. Linear Regression - notes.pdf"]
+tags: ["statistics", "modeling", "regression", "concept"]
+timestamp: "2026-08-01"
+sources: ["Lecture 11. Linear Regression - notes.pdf", "scratch_0.txt"]
 ---
 # Linear Regression
 

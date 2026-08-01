@@ -1,0 +1,55 @@
+{
+  "source_file": "EBSCO-FullText-08_01_2026 (1).pdf",
+  "entities": [
+    {
+      "name": "Uber",
+      "description": "A digital platform and ride-hailing company mentioned as an example of on-demand work."
+    },
+    {
+      "name": "Lyft",
+      "description": "A ride-hailing company and digital platform."
+    },
+    {
+      "name": "Juno",
+      "description": "A ride-hailing company mentioned in the text."
+    },
+    {
+      "name": "Instacart",
+      "description": "A closed labor platform providing on-demand delivery services."
+    },
+    {
+      "name": "Amazon Flex",
+      "description": "A digital platform providing on-demand work."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Algorithmic management",
+      "description": "Software algorithms assume managerial functions such as assigning, evaluating, and pricing work tasks."
+    },
+    {
+      "name": "Workplace consent",
+      "description": "Individuals' enthusiastic and active participation to align their efforts with managerial objectives."
+    },
+    {
+      "name": "Engagement tactics",
+      "description": "Workers interact within the boundaries of the algorithmic management system and generally follow the algorithm's nudges."
+    },
+    {
+      "name": "Deviance tactics",
+      "description": "Workers manipulate their input into the algorithmic management system, pushing against its boundaries."
+    },
+    {
+      "name": "Good bad job",
+      "description": "Work that is structurally problematic or precarious but is attractive and meaningful to workers."
+    }
+  ],
+  "claims": [
+    "The shift from human managers to algorithmic managers on digital platforms manufactures workplace consent.",
+    "Workers navigate algorithmic management using engagement and deviance tactics.",
+    "Both engagement and deviance tactics elicit consent and contribute to workers seeing themselves as skillful agents.",
+    "Algorithmic management elicits consent through a series of narrow yet frequent choices that are associated with workers' sense of mastery.",
+    "Choice-based consent can mask the more structurally problematic elements of precarious on-demand work."
+  ],
+  "summary": "This article explores how algorithmic management on digital platforms manufactures workplace consent, focusing on the ride-hailing industry. Drawing on a seven-year qualitative study, the author finds that workers make frequent, narrow choices within a highly confined system using engagement and deviance tactics. Both sets of tactics elicit active participation from workers, align their efforts with managerial objectives, and foster a sense of mastery, masking the precarious nature of the work and contributing to the appeal of what the author calls the 'good bad' job."
+}

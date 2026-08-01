@@ -1,0 +1,23 @@
+{
+  "source_file": "s10802-013-9715-2.pdf",
+  "entities": [
+    {"name": "Sarah L. Karalunas", "description": "Author of the paper, affiliated with Oregon Health Sciences University."},
+    {"name": "Cynthia L. Huang-Pollock", "description": "Author of the paper, affiliated with The Pennsylvania State University."},
+    {"name": "Fast-dm", "description": "A modeling technique program used to estimate diffusion model parameters."},
+    {"name": "MATLAB", "description": "Software used to compute ex-Gaussian parameters using the egfit tool."}
+  ],
+  "concepts": [
+    {"name": "Diffusion Model", "description": "A framework used to explain decision-making in forced-choice paradigms, analyzing reaction time into components like drift rate, boundary separation, and non-decision time."},
+    {"name": "Ex-Gaussian Decomposition", "description": "A method to characterize reaction time distributions, estimating the mean and standard deviation of the Gaussian portion, and the exponential portion."},
+    {"name": "Drift Rate (v)", "description": "An index of how quickly and efficiently an individual can accumulate information to inform their response decision."},
+    {"name": "Boundary Separation (a)", "description": "A measure indicating the conservative nature of the response criterion, or speed-accuracy trade-off setting."},
+    {"name": "Non-decision Time (Ter)", "description": "The time it takes to complete all other information processes not involved in stimulus discrimination, such as encoding and motor preparation."}
+  ],
+  "claims": [
+    "Children with ADHD have smaller working memory capacities and less efficient inhibitory control.",
+    "Children with ADHD exhibit slower drift rates and faster non-decision times, but no differences in boundary separation.",
+    "Drift rate mediates the association between ADHD status and performance on both inhibitory control and working memory capacity.",
+    "Slower drift rates partially mediate the relationship between ADHD and poor executive function performance."
+  ],
+  "summary": "This study evaluates the role of individual differences in reaction time (RT) distribution components in predicting inhibitory control and working memory (WM) capacity in children with and without ADHD. Using Ratcliff's diffusion model and ex-Gaussian decomposition, the authors find that children with ADHD have slower drift rates (information processing speed) and faster non-decision times. The slower drift rate significantly mediates the association between ADHD status and poor performance on tasks of inhibitory control and WM, offering an integrated account for why slower and more variable RTs regularly co-occur with impaired executive function in ADHD."
+}
