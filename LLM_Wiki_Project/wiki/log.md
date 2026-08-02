@@ -86,6 +86,16 @@ Append-only chronological record of ingests, queries, and lint passes.
 - Processed `scratch_3.txt`: created/updated 3 entities and 8 concepts.
 - Processed `1-s2.0-S0749597825000172-main.pdf`: created/updated 1 entities and 4 concepts.
 - Processed `scratch_4.txt`: created/updated 6 entities and 7 concepts.
+
+
+## Ingest Log - 2026-08-01 18:52:34
+- Processed `1-s2.0-S0191886922000599-main.pdf`: created/updated 3 entities and 3 concepts.
+- Processed `scratch_0.txt`: created/updated 4 entities and 8 concepts.
+- Processed `scratch_1.txt`: created/updated 3 entities and 7 concepts.
+- Processed `scratch_2.txt`: created/updated 3 entities and 10 concepts.
+- Processed `scratch_3.txt`: created/updated 3 entities and 8 concepts.
+- Processed `1-s2.0-S0749597825000172-main.pdf`: created/updated 1 entities and 4 concepts.
+- Processed `scratch_4.txt`: created/updated 6 entities and 7 concepts.
 - Processed `EBSCO-FullText-08_01_2026 (1).pdf`: created/updated 5 entities and 5 concepts.
 - Processed `How Perceived Lack of Benevolence Harms Trust of Artificial Intelligence Management.pdf`: created/updated 3 entities and 4 concepts.
 - Processed `Slow drift rate predicts ADHD symptomology over and above executive dysfunction.pdf`: created/updated 5 entities and 4 concepts.
@@ -93,3 +103,12 @@ Append-only chronological record of ingests, queries, and lint passes.
 - Processed `s10802-013-9715-2.pdf`: created/updated 4 entities and 5 concepts.
 - Processed `EBSCO-FullText-08_01_2026.pdf`: created/updated 2 entities and 3 concepts.
 - Processed `s10869-023-09911-w.pdf`: created/updated 3 entities and 4 concepts.
+
+## [2026-08-01] lint | Full 6-step health check
+- **Schema Integrity**: 5 issues (3 structural pages missing frontmatter, 1 YAML parse error, 1 empty sources field). 225/230 pages valid.
+- **Staleness**: No contradictions. 10 oldest pages (2026-07-15) remain consistent.
+- **Coverage Gaps**: index.md and overview.md contain stale references to old filenames.
+- **Overview Drift**: RED — "Recent Additions" sections reference pre-rename filenames (~130 broken links).
+- **Orphan Check**: 134/227 content pages (59%) have zero inbound cross-links from other content pages.
+- **Duplicate Detection**: 12 duplicate groups identified (25 files affected). Top priorities: Diffusion Model, TIRT, Drift Rate, Non-Parametric Tests, Cynthia Huang-Pollock, MFC pages.
+- **Overall Status**: 🟡 Yellow. Bulk ingest created granular pages without sufficient cross-linking. Duplicate merging and orphan remediation recommended.
