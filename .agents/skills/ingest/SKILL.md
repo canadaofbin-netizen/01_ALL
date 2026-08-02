@@ -13,6 +13,23 @@ You have access to the file system. Your job is to extract, route, and link know
 
 ## Ingest Pipeline (run in order)
 
+### 0. File Standardization (Rename Before Processing)
+Before reading content, rename all unprocessed raw files to a **standardized format**. This ensures consistency across the wiki and makes sources human-readable at a glance.
+
+**Naming Rules:**
+- **Academic papers (PDF):** `AuthorLastName_et_al_Year_ShortTitle.pdf`
+  - Single author: `AuthorLastName_Year_ShortTitle.pdf`
+  - Two authors: `Author1_Author2_Year_ShortTitle.pdf`
+  - Three or more authors: `Author1_et_al_Year_ShortTitle.pdf`
+  - `ShortTitle` should be 3–6 words in Title_Case, capturing the paper's main topic.
+  - Example: `1-s2.0-S0191886922000599-main.pdf` → `Smith_et_al_2022_Dark_Triad_Workplace.pdf`
+  - Example: `s10802-013-9715-2.pdf` → `Karalunas_et_al_2014_ADHD_Drift_Rate.pdf`
+- **Non-paper files (notes, trackers, etc.):** Use `snake_case` with a descriptive name.
+  - Example: `scratch_0.txt` → `lecture_11_linear_regression_notes.txt`
+- **Already well-named files:** If a file already follows a clear, readable convention (e.g., `Kupffer_et_al_2024_Careless_Responding.pdf`), leave it as-is.
+- To determine author names and year, briefly inspect the file's content (first page or header). Do not guess; only rename when you can confirm the metadata from the document itself.
+- The wiki Summary page title (`title` frontmatter field) should match the standardized filename (without extension).
+
 ### 1. Source Analysis
 Read the unprocessed files in the `raw/` folder. 
 For each file, extract the core claims, arguments, and facts.
