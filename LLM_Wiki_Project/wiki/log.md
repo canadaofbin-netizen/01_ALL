@@ -1,3 +1,12 @@
+---
+type: overview
+title: "Wiki Log"
+description: "Append-only chronological record of ingests, queries, and lint passes."
+tags: ["wiki", "log"]
+timestamp: "2026-08-01"
+sources: ["wiki_system"]
+---
+
 # Wiki Log
 
 Append-only chronological record of ingests, queries, and lint passes.

@@ -1,12 +1,12 @@
 ---
-title: "EBSCO-FullText-08_01_2026 (1).pdf"
+title: "Cameron_2024_Making_Good_Bad_Job"
 description: "This article explores how algorithmic management on digital platforms manufactures workplace consent, focusing on the ride-hailing industry. Drawing on a seven-year qualitative study, the author finds that workers make frequent, narrow choices within a highly confined system using engagement and deviance tactics. Both sets of tactics elicit active participation from workers, align their efforts with managerial objectives, and foster a sense of mastery, masking the precarious nature of the work and contributing to the appeal of what the author calls the 'good bad' job."
 type: "summary"
 tags: ["source"]
 timestamp: "2026-08-01"
 sources: ["EBSCO-FullText-08_01_2026 (1).pdf"]
 ---
-# EBSCO-FullText-08_01_2026 (1).pdf
+# Cameron_2024_Making_Good_Bad_Job
 
 This article explores how algorithmic management on digital platforms manufactures workplace consent, focusing on the ride-hailing industry. Drawing on a seven-year qualitative study, the author finds that workers make frequent, narrow choices within a highly confined system using engagement and deviance tactics. Both sets of tactics elicit active participation from workers, align their efforts with managerial objectives, and foster a sense of mastery, masking the precarious nature of the work and contributing to the appeal of what the author calls the 'good bad' job.
 

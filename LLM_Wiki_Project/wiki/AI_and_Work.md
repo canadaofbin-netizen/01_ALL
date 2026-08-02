@@ -27,3 +27,9 @@ Based on the literature reviewed in the [[Kim_Lab_Journal_Club_Summer_2026]], re
 
 ---
 *Provenance: Kim Lab Journal Club - Summer 2026*
+
+## Related Concepts
+- [[AI_disclosure]]
+- [[Trust]]
+- [[Perceived_Benevolence]]
+- [[Algorithm_Aversion]]

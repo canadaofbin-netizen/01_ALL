@@ -11,10 +11,10 @@ sources: ["Lecture 12. One-way ANOVA - slides.pdf"]
 ANOVA is an extension of the [[T_Test]] used to compare means when there are more than two groups or conditions.
 
 ## Mechanism
-It partitions total variance into:
+It [[Partitioning_Variance|partitions total variance]] into:
 - **Model Variance**: Differences between group means and the grand mean.
 - **Error Variance**: Differences between individual data points and their group mean.
 
-The ratio of these variances produces the F-statistic. A significant F-test must be followed by post-hoc tests (e.g., Bonferroni) to determine which specific groups differ.
+The ratio of these variances produces the [[F-statistic]]. A significant F-test must be followed by post-hoc tests (e.g., [[Bonferroni_Correction]]) to determine which specific groups differ.
 
 See [[Lecture_12_One_Way_ANOVA]].

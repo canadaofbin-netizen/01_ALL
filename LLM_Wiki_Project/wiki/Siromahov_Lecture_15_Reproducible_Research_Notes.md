@@ -1,12 +1,12 @@
 ---
-title: "scratch_4.txt"
+title: "Siromahov_Lecture_15_Reproducible_Research_Notes"
 description: "This document consists of lecture slides by Dr Metodi Siromahov discussing the reproducibility crisis across psychology, neuroscience, and medicine. It examines how methodological flaws—such as low statistical power, publication bias (the file drawer problem), p-hacking, and HARKing—drastically lower the Positive Predictive Value (PPV) of published literature, resulting in high rates of false-positive claims. Using famous case studies like social priming and controversial publication advice, the lecture emphasizes that academic incentive structures currently reward volume of positive findings over research quality. It concludes by presenting Open Science solutions, including preregistration of hypotheses, open data sharing, and scripted data analysis in R to restore scientific rigor and transparency."
 type: "summary"
 tags: ["source"]
 timestamp: "2026-08-01"
 sources: ["scratch_4.txt"]
 ---
-# scratch_4.txt
+# Siromahov_Lecture_15_Reproducible_Research_Notes
 
 This document consists of lecture slides by Dr Metodi Siromahov discussing the reproducibility crisis across psychology, neuroscience, and medicine. It examines how methodological flaws—such as low statistical power, publication bias (the file drawer problem), p-hacking, and HARKing—drastically lower the Positive Predictive Value (PPV) of published literature, resulting in high rates of false-positive claims. Using famous case studies like social priming and controversial publication advice, the lecture emphasizes that academic incentive structures currently reward volume of positive findings over research quality. It concludes by presenting Open Science solutions, including preregistration of hypotheses, open data sharing, and scripted data analysis in R to restore scientific rigor and transparency.
 

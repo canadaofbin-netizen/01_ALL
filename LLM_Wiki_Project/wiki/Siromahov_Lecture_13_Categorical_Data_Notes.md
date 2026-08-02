@@ -1,12 +1,12 @@
 ---
-title: "scratch_2.txt"
+title: "Siromahov_Lecture_13_Categorical_Data_Notes"
 description: "Lecture notes by M. Siromahov covering statistical analysis of categorical data using Chi-Squared (χ²) tests. The material defines nominal and ordinal variables, details the Chi-Squared goodness-of-fit test with seasonal birth data, and explains the Chi-Squared test of independence using a political view and pet preference example. It provides formulas for calculating expected frequencies, test statistics, degrees of freedom, and effect sizes (Phi coefficient and Cramer's V), outlines key test assumptions, and explains R software execution."
 type: "summary"
 tags: ["source"]
 timestamp: "2026-08-01"
 sources: ["scratch_2.txt"]
 ---
-# scratch_2.txt
+# Siromahov_Lecture_13_Categorical_Data_Notes
 
 Lecture notes by M. Siromahov covering statistical analysis of categorical data using Chi-Squared (χ²) tests. The material defines nominal and ordinal variables, details the Chi-Squared goodness-of-fit test with seasonal birth data, and explains the Chi-Squared test of independence using a political view and pet preference example. It provides formulas for calculating expected frequencies, test statistics, degrees of freedom, and effect sizes (Phi coefficient and Cramer's V), outlines key test assumptions, and explains R software execution.
 

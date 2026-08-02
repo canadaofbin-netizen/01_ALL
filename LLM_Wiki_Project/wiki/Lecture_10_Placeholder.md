@@ -4,7 +4,7 @@ title: "Lecture 10 — Placeholder"
 description: "Placeholder page documenting that Lecture 10 does not exist in the UCL Research Methods & Statistics course sequence."
 tags: [research-methods, statistics, placeholder]
 timestamp: 2026-07-18
-sources: []
+sources: ["UCL Research Methods & Statistics Curriculum"]
 ---
 
 # Lecture 10 — Does Not Exist

@@ -1,12 +1,12 @@
 ---
-title: "1-s2.0-S0749597825000172-main.pdf"
-description: "This article investigates the consequences of disclosing generative AI usage in the workplace, revealing a "transparency dilemma." Across 13 experiments, the authors demonstrate that individuals who disclose their AI use are consistently trusted less than those who do not. Drawing on micro-institutional theory, this trust penalty is explained by reduced perceptions of legitimacy, as AI involvement challenges normative expectations of human agency and effort. The negative effect is robust across various tasks and disclosure framings, and is especially detrimental when AI usage is exposed by a third party rather than voluntarily disclosed."
+title: "Schilke_Reimann_2025_AI_Disclosure_Erodes_Trust"
+description: "This article investigates the consequences of disclosing generative AI usage in the workplace, revealing a 'transparency dilemma.' Across 13 experiments, the authors demonstrate that individuals who disclose their AI use are consistently trusted less than those who do not. Drawing on micro-institutional theory, this trust penalty is explained by reduced perceptions of legitimacy, as AI involvement challenges normative expectations of human agency and effort. The negative effect is robust across various tasks and disclosure framings, and is especially detrimental when AI usage is exposed by a third party rather than voluntarily disclosed."
 type: "summary"
 tags: ["source"]
 timestamp: "2026-08-01"
 sources: ["1-s2.0-S0749597825000172-main.pdf"]
 ---
-# 1-s2.0-S0749597825000172-main.pdf
+# Schilke_Reimann_2025_AI_Disclosure_Erodes_Trust
 
 This article investigates the consequences of disclosing generative AI usage in the workplace, revealing a "transparency dilemma." Across 13 experiments, the authors demonstrate that individuals who disclose their AI use are consistently trusted less than those who do not. Drawing on micro-institutional theory, this trust penalty is explained by reduced perceptions of legitimacy, as AI involvement challenges normative expectations of human agency and effort. The negative effect is robust across various tasks and disclosure framings, and is especially detrimental when AI usage is exposed by a third party rather than voluntarily disclosed.
 

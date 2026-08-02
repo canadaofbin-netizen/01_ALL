@@ -1,3 +1,12 @@
+---
+type: overview
+title: "Wiki Overview"
+description: "High-level overview and navigation hub for the LLM Wiki knowledge base."
+tags: ["wiki", "overview"]
+timestamp: "2026-08-01"
+sources: ["wiki_system"]
+---
+
 # Wiki Overview
 
 Welcome to the LLM Wiki.
@@ -55,6 +64,79 @@ This wiki also explores major concepts in I/O Psychology and Data Science, inclu
 - [[Volume_Conduction]]
 - [[Workplace_Loneliness]]
 - [[Zero_UI]]
+- [[Heteropolar_blocks]]
+- [[Negatively_keyed_statements]]
+- [[Ipsativity_problem]]
+- [[Intercept]]
+- [[Slope]]
+- [[Residuals___Error]]
+- [[F-Test_for_Model_Fit]]
+- [[Coefficient_of_Determination__R²_]]
+- [[t-Test_for_Slope]]
+- [[Assumptions_of_Linear_Regression]]
+- [[One-Way_ANOVA]]
+- [[F-statistic]]
+- [[Partitioning_Variance]]
+- [[Eta-squared__η²_]]
+- [[Bonferroni_Correction]]
+- [[ANOVA_Assumptions]]
+- [[Between-Subjects_Design]]
+- [[Categorical_Variables]]
+- [[Chi-Squared__χ²__Goodness-of-Fit_Test]]
+- [[Chi-Squared__χ²__Test_of_Independence]]
+- [[Chi-Squared_Distribution]]
+- [[Expected_Frequencies]]
+- [[Degrees_of_Freedom__df_]]
+- [[Contingency_Table]]
+- [[Yates__Continuity_Correction]]
+- [[Phi_Coefficient__φ_]]
+- [[Cramer_s_V]]
+- [[Non_Parametric_Tests]]
+- [[Ranking]]
+- [[Wilcoxon_Rank-Sum_Test___Mann-Whitney_U-Test]]
+- [[Wilcoxon_Signed-Rank_Test]]
+- [[Kruskal-Wallis_Test]]
+- [[Shapiro-Wilk_Test]]
+- [[Statistical_Power]]
+- [[AI_disclosure]]
+- [[Legitimacy]]
+- [[Micro-institutional_theory]]
+- [[Reproducibility_Crisis]]
+- [[Positive_Predictive_Value__PPV_]]
+- [[P-hacking]]
+- [[HARKing]]
+- [[Publication_Bias]]
+- [[Preregistration]]
+- [[Reproducible_Analysis]]
+- [[Workplace_consent]]
+- [[Engagement_tactics]]
+- [[Deviance_tactics]]
+- [[Good_bad_job]]
+- [[Perceived_Benevolence]]
+- [[Trust]]
+- [[Empathy_Demand]]
+- [[Emotions_as_Social_Information__EASI__model]]
+- [[Drift_rate]]
+- [[Executive_Function__EF_]]
+- [[Diffusion_Model__DM_]]
+- [[Bifactor_model_of_ADHD]]
+- [[Multidimensional_forced-choice__MFC__format]]
+- [[Careless_responding]]
+- [[LongOrder_indices]]
+- [[Triplet_variance]]
+- [[Consistency_score]]
+- [[Instructed_response_triplets]]
+- [[Diffusion_Model]]
+- [[Ex-Gaussian_Decomposition]]
+- [[Drift_Rate__v_]]
+- [[Boundary_Separation__a_]]
+- [[Non-decision_Time__Ter_]]
+- [[AI-Augmented_Employee_Creativity]]
+- [[Skill-Biased_AI_Augmentation]]
+- [[Sequential_Division_of_Labor]]
+- [[Multidimensional_forced-choice__MFC__measures]]
+- [[Thurstonian_item_response_theory__TIRT__model]]
+- [[lz_person-fit_statistic]]
 
 ## Key Entities
 - [[Apple]]
@@ -77,139 +159,65 @@ This wiki also explores major concepts in I/O Psychology and Data Science, inclu
 - [[University_College_London]]
 - [[University_of_Birmingham]]
 - [[University_of_Oklahoma]]
+- [[Multidimensional_forced_choice__MFC__personality_tests]]
+- [[Thurstonian_Item_Response_Theory__TIRT_]]
+- [[Partially_ipsative__PI__scoring]]
+- [[M__Siromahov]]
+- [[R]]
+- [[lm__]]
+- [[Dr_Metodi_Siromahov]]
+- [[afex]]
+- [[St__Margaret_s_Hospital]]
+- [[Yates]]
+- [[Generative_artificial_intelligence__AI_]]
+- [[Daryl_Bem]]
+- [[John_P__A__Ioannidis]]
+- [[Daniel_Kahneman]]
+- [[Dorothy_Bishop]]
+- [[Open_Science_Movement]]
+- [[Uber]]
+- [[Lyft]]
+- [[Juno]]
+- [[Instacart]]
+- [[Amazon_Flex]]
+- [[Artificial_Intelligence__AI__Management]]
+- [[Employees___Subordinates]]
+- [[Human_Management]]
+- [[Jason_S__Feldman]]
+- [[Cynthia_Huang-Pollock]]
+- [[The_Pennsylvania_State_University]]
+- [[Fast-dm]]
+- [[ADHD_Rating_Scale__ADHD-RS_]]
+- [[Rebekka_Kupffer]]
+- [[Susanne_Frick]]
+- [[Eunike_Wetzel]]
+- [[Thurstonian_item_response_theory_model]]
+- [[Sarah_L__Karalunas]]
+- [[Cynthia_L__Huang-Pollock]]
+- [[MATLAB]]
+- [[Artificial_Intelligence__AI_]]
+- [[Human_Employees__Agents_]]
+- [[Philseok_Lee]]
+- [[Sean_Joo]]
+- [[Mina_Son]]
+
+## Summaries
+- [[Lee_et_al_2022_Negatively_Keyed_Statements_MFC]]
+- [[Siromahov_Lecture_11_Linear_Regression_Notes]]
+- [[Siromahov_Lecture_12_One_Way_ANOVA_Notes]]
+- [[Siromahov_Lecture_13_Categorical_Data_Notes]]
+- [[Siromahov_Lecture_14_Non_Parametric_Tests_Notes]]
+- [[Schilke_Reimann_2025_AI_Disclosure_Erodes_Trust]]
+- [[Siromahov_Lecture_15_Reproducible_Research_Notes]]
+- [[Cameron_2024_Making_Good_Bad_Job]]
+- [[Li_Bitterly_2024_Benevolence_Harms_AI_Trust]]
+- [[Feldman_Huang-Pollock_2021_Slow_Drift_Rate_ADHD]]
+- [[Kupffer_et_al_2024_Careless_Responding_MFC]]
+- [[Karalunas_Huang-Pollock_2013_Integrating_RT_Impairments]]
+- [[Jia_et_al_2024_AI_Augments_Employee_Creativity]]
+- [[Lee_et_al_2024_Detecting_Careless_MFC_Data]]
 
 ## Navigation
 - [Index](index.md)
 - [Linter Log](log.md)
 
-
-### Recent Additions
-- [[1-s2.0-S0191886922000599-main.pdf]] (summary)
-- [[Multidimensional forced choice (MFC) personality tests]] (entity)
-- [[Thurstonian Item Response Theory (TIRT)]] (entity)
-- [[Partially ipsative (PI) scoring]] (entity)
-- [[Heteropolar blocks]] (concept)
-- [[Negatively keyed statements]] (concept)
-- [[Ipsativity problem]] (concept)
-- [[scratch_0.txt]] (summary)
-- [[M. Siromahov]] (entity)
-- [[R]] (entity)
-- [[lm()]] (entity)
-- [[summary()]] (entity)
-- [[Intercept]] (concept)
-- [[Slope]] (concept)
-- [[Residuals / Error]] (concept)
-- [[F-Test for Model Fit]] (concept)
-- [[Coefficient of Determination (R²)]] (concept)
-- [[t-Test for Slope]] (concept)
-- [[Assumptions of Linear Regression]] (concept)
-- [[scratch_1.txt]] (summary)
-- [[Dr Metodi Siromahov]] (entity)
-- [[afex]] (entity)
-- [[One-Way ANOVA]] (concept)
-- [[F-statistic]] (concept)
-- [[Partitioning Variance]] (concept)
-- [[Eta-squared (η²)]] (concept)
-- [[Bonferroni Correction]] (concept)
-- [[ANOVA Assumptions]] (concept)
-- [[Between-Subjects Design]] (concept)
-- [[scratch_2.txt]] (summary)
-- [[St. Margaret's Hospital]] (entity)
-- [[Categorical Variables]] (concept)
-- [[Chi-Squared (χ²) Goodness-of-Fit Test]] (concept)
-- [[Chi-Squared (χ²) Test of Independence]] (concept)
-- [[Chi-Squared Distribution]] (concept)
-- [[Expected Frequencies]] (concept)
-- [[Degrees of Freedom (df)]] (concept)
-- [[Contingency Table]] (concept)
-- [[Yates' Continuity Correction]] (concept)
-- [[Phi Coefficient (φ)]] (concept)
-- [[Cramer's V]] (concept)
-- [[scratch_3.txt]] (summary)
-- [[Yates]] (entity)
-- [[Non-parametric Tests]] (concept)
-- [[Ranking]] (concept)
-- [[Wilcoxon Rank-Sum Test / Mann-Whitney U-Test]] (concept)
-- [[Wilcoxon Signed-Rank Test]] (concept)
-- [[Kruskal-Wallis Test]] (concept)
-- [[Shapiro-Wilk Test]] (concept)
-- [[Statistical Power]] (concept)
-- [[1-s2.0-S0749597825000172-main.pdf]] (summary)
-- [[Generative artificial intelligence (AI)]] (entity)
-- [[AI disclosure]] (concept)
-- [[Legitimacy]] (concept)
-- [[Micro-institutional theory]] (concept)
-- [[scratch_4.txt]] (summary)
-- [[Daryl Bem]] (entity)
-- [[John P. A. Ioannidis]] (entity)
-- [[Daniel Kahneman]] (entity)
-- [[Dorothy Bishop]] (entity)
-- [[Open Science Movement]] (entity)
-- [[Reproducibility Crisis]] (concept)
-- [[Positive Predictive Value (PPV)]] (concept)
-- [[P-hacking]] (concept)
-- [[HARKing]] (concept)
-- [[Publication Bias]] (concept)
-- [[Preregistration]] (concept)
-- [[Reproducible Analysis]] (concept)
-- [[EBSCO-FullText-08_01_2026 (1).pdf]] (summary)
-- [[Uber]] (entity)
-- [[Lyft]] (entity)
-- [[Juno]] (entity)
-- [[Instacart]] (entity)
-- [[Amazon Flex]] (entity)
-- [[Workplace consent]] (concept)
-- [[Engagement tactics]] (concept)
-- [[Deviance tactics]] (concept)
-- [[Good bad job]] (concept)
-- [[How Perceived Lack of Benevolence Harms Trust of Artificial Intelligence Management.pdf]] (summary)
-- [[Artificial Intelligence (AI) Management]] (entity)
-- [[Employees / Subordinates]] (entity)
-- [[Human Management]] (entity)
-- [[Perceived Benevolence]] (concept)
-- [[Trust]] (concept)
-- [[Empathy Demand]] (concept)
-- [[Emotions as Social Information (EASI) model]] (concept)
-- [[Slow drift rate predicts ADHD symptomology over and above executive dysfunction.pdf]] (summary)
-- [[Jason S. Feldman]] (entity)
-- [[Cynthia Huang-Pollock]] (entity)
-- [[The Pennsylvania State University]] (entity)
-- [[Fast-dm]] (entity)
-- [[ADHD Rating Scale (ADHD-RS)]] (entity)
-- [[Drift rate]] (concept)
-- [[Executive Function (EF)]] (concept)
-- [[Diffusion Model (DM)]] (concept)
-- [[Bifactor model of ADHD]] (concept)
-- [[kupffer-et-al-2024-detecting-careless-responding-in-multidimensional-forced-choice-questionnaires.pdf]] (summary)
-- [[Rebekka Kupffer]] (entity)
-- [[Susanne Frick]] (entity)
-- [[Eunike Wetzel]] (entity)
-- [[Thurstonian item response theory model]] (entity)
-- [[Multidimensional forced-choice (MFC) format]] (concept)
-- [[Careless responding]] (concept)
-- [[LongOrder indices]] (concept)
-- [[Triplet variance]] (concept)
-- [[Consistency score]] (concept)
-- [[Instructed response triplets]] (concept)
-- [[s10802-013-9715-2.pdf]] (summary)
-- [[Sarah L. Karalunas]] (entity)
-- [[Cynthia L. Huang-Pollock]] (entity)
-- [[MATLAB]] (entity)
-- [[Diffusion Model]] (concept)
-- [[Ex-Gaussian Decomposition]] (concept)
-- [[Drift Rate (v)]] (concept)
-- [[Boundary Separation (a)]] (concept)
-- [[Non-decision Time (Ter)]] (concept)
-- [[EBSCO-FullText-08_01_2026.pdf]] (summary)
-- [[Artificial Intelligence (AI)]] (entity)
-- [[Human Employees (Agents)]] (entity)
-- [[AI-Augmented Employee Creativity]] (concept)
-- [[Skill-Biased AI Augmentation]] (concept)
-- [[Sequential Division of Labor]] (concept)
-- [[s10869-023-09911-w.pdf]] (summary)
-- [[Philseok Lee]] (entity)
-- [[Sean Joo]] (entity)
-- [[Mina Son]] (entity)
-- [[Multidimensional forced-choice (MFC) measures]] (concept)
-- [[Thurstonian item response theory (TIRT) model]] (concept)
-- [[lz person-fit statistic]] (concept)

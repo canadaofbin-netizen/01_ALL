@@ -1,12 +1,12 @@
 ---
-title: "scratch_1.txt"
+title: "Siromahov_Lecture_12_One_Way_ANOVA_Notes"
 description: "This document presents lecture slides by Dr. Metodi Siromahov on One-Way Between-Subjects ANOVA. It explains the distinction between t-tests and ANOVA, demonstrates how total variance is partitioned into model and error sums of squares, and walks through calculating degrees of freedom, the F-statistic, and eta-squared effect size using a running speed dataset across three music tempo conditions. Additionally, it details executing ANOVA in R using the afex package, performing Bonferroni-corrected post-hoc pairwise comparisons, testing statistical assumptions, and structuring standard academic write-ups."
 type: "summary"
 tags: ["source"]
 timestamp: "2026-08-01"
 sources: ["scratch_1.txt"]
 ---
-# scratch_1.txt
+# Siromahov_Lecture_12_One_Way_ANOVA_Notes
 
 This document presents lecture slides by Dr. Metodi Siromahov on One-Way Between-Subjects ANOVA. It explains the distinction between t-tests and ANOVA, demonstrates how total variance is partitioned into model and error sums of squares, and walks through calculating degrees of freedom, the F-statistic, and eta-squared effect size using a running speed dataset across three music tempo conditions. Additionally, it details executing ANOVA in R using the afex package, performing Bonferroni-corrected post-hoc pairwise comparisons, testing statistical assumptions, and structuring standard academic write-ups.
 

@@ -27,4 +27,9 @@ However, it still faces anatomical challenges such as [[Volume_Conduction]], lea
 ## Multi-Modal Foundation Datasets
 The [[Scalable_Neural_Interfaces]] project, funded by ARIA, combines high-density EEG and MEG signals with kinematic behavioral data to construct massive multi-modal foundation datasets. These are fed into GPT-based foundation models developed by [[Kornysheva_Lab]] at [[University_of_Birmingham]] to decode intricate hand and arm movement intentions at high resolution, aiming to break through the accuracy bottlenecks of traditional motor cortex signal decoding.
 
+## Core Paradigms
+- [[Motor_Imagery]]
+- [[Steady_State_Visual_Evoked_Potentials]]
+- [[Event_Related_Potentials]]
+
 *Provenance: BCI in AR_VR Research.pdf; BCI Research Opportunities Investigation.pdf*

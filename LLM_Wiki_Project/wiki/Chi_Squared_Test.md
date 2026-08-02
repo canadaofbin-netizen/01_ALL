@@ -8,10 +8,10 @@ sources: ["Lecture 13. Categorical data with chi squared - notes.pdf"]
 ---
 # Chi-Squared Test
 
-The Chi-Squared (χ²) test is utilized for categorical data (nominal or ordinal) to compare observed frequencies against expected frequencies.
+The Chi-Squared (χ²) test is utilized for [[Categorical_Variables|categorical data]] (nominal or ordinal) to compare observed frequencies against [[Expected_Frequencies|expected frequencies]].
 
 ## Variations
 - **Goodness of Fit**: Tests if a single categorical variable follows a hypothesized population distribution.
-- **Test of Independence**: Tests if there is a significant association between two categorical variables within a contingency table.
+- **Test of Independence**: Tests if there is a significant association between two [[Categorical_Variables]] within a [[Contingency_Table]].
 
 See [[Lecture_13_Categorical_Data_With_Chi_Squared]].

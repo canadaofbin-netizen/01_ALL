@@ -1,12 +1,12 @@
 ---
-title: "s10802-013-9715-2.pdf"
+title: "Karalunas_Huang-Pollock_2013_Integrating_RT_Impairments"
 description: "This study evaluates the role of individual differences in reaction time (RT) distribution components in predicting inhibitory control and working memory (WM) capacity in children with and without ADHD. Using Ratcliff's diffusion model and ex-Gaussian decomposition, the authors find that children with ADHD have slower drift rates (information processing speed) and faster non-decision times. The slower drift rate significantly mediates the association between ADHD status and poor performance on tasks of inhibitory control and WM, offering an integrated account for why slower and more variable RTs regularly co-occur with impaired executive function in ADHD."
 type: "summary"
 tags: ["source"]
 timestamp: "2026-08-01"
 sources: ["s10802-013-9715-2.pdf"]
 ---
-# s10802-013-9715-2.pdf
+# Karalunas_Huang-Pollock_2013_Integrating_RT_Impairments
 
 This study evaluates the role of individual differences in reaction time (RT) distribution components in predicting inhibitory control and working memory (WM) capacity in children with and without ADHD. Using Ratcliff's diffusion model and ex-Gaussian decomposition, the authors find that children with ADHD have slower drift rates (information processing speed) and faster non-decision times. The slower drift rate significantly mediates the association between ADHD status and poor performance on tasks of inhibitory control and WM, offering an integrated account for why slower and more variable RTs regularly co-occur with impaired executive function in ADHD.
 

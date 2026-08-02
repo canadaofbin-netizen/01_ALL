@@ -1,14 +1,16 @@
 ---
-title: "kupffer-et-al-2024-detecting-careless-responding-in-multidimensional-forced-choice-questionnaires.pdf"
+title: "Kupffer_et_al_2024_Careless_Responding_MFC"
 description: "This study explores methods for detecting careless responding in multidimensional forced-choice (MFC) questionnaires. The authors adapted existing indices from rating scale formats and developed new ones specific to MFC data, such as triplet variance and LongOrder indices. Through an online survey and a simulation study, they demonstrated that careless responding exists in MFC formats and can be effectively identified using a combination of indices like response time, rank order repetition, triplet variance, and instructed response triplets. The research provides practical recommendations for screening and improving data quality in MFC assessments."
 type: "summary"
 tags: ["source"]
 timestamp: "2026-08-01"
 sources: ["kupffer-et-al-2024-detecting-careless-responding-in-multidimensional-forced-choice-questionnaires.pdf"]
 ---
-# kupffer-et-al-2024-detecting-careless-responding-in-multidimensional-forced-choice-questionnaires.pdf
+# Kupffer_et_al_2024_Careless_Responding_MFC
 
-This study explores methods for detecting careless responding in multidimensional forced-choice (MFC) questionnaires. The authors adapted existing indices from rating scale formats and developed new ones specific to MFC data, such as triplet variance and LongOrder indices. Through an online survey and a simulation study, they demonstrated that careless responding exists in MFC formats and can be effectively identified using a combination of indices like response time, rank order repetition, triplet variance, and instructed response triplets. The research provides practical recommendations for screening and improving data quality in MFC assessments.
+This study explores methods for detecting [[Careless_responding]] in [[Multidimensional_forced-choice__MFC__format|multidimensional forced-choice (MFC)]] questionnaires. The authors adapted existing indices from rating scale formats and developed new ones specific to MFC data, such as [[Triplet_variance]] and [[LongOrder_indices]]. Through an online survey and a simulation study, they demonstrated that careless responding exists in MFC formats and can be effectively identified using a combination of indices like response time, rank order repetition, triplet variance, and [[Instructed_response_triplets]]. The research provides practical recommendations for screening and improving data quality in MFC assessments.
+
+See authors: [[Rebekka_Kupffer]], [[Eunike_Wetzel]] (if applicable).
 
 ## Information
 

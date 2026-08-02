@@ -1,12 +1,12 @@
 ---
-title: "scratch_0.txt"
+title: "Siromahov_Lecture_11_Linear_Regression_Notes"
 description: "This document (Lecture 11 by M. Siromahov) introduces simple linear regression as a statistical modeling tool for predicting an outcome variable from a continuous predictor variable. It explains model components (intercept, slope, residual error), hypothesis testing (F-test for overall model fit and t-tests for slope significance), effect size via R², R implementation using lm() and summary(), standardized reporting guidelines, and core statistical assumptions."
 type: "summary"
 tags: ["source"]
 timestamp: "2026-08-01"
 sources: ["scratch_0.txt"]
 ---
-# scratch_0.txt
+# Siromahov_Lecture_11_Linear_Regression_Notes
 
 This document (Lecture 11 by M. Siromahov) introduces simple linear regression as a statistical modeling tool for predicting an outcome variable from a continuous predictor variable. It explains model components (intercept, slope, residual error), hypothesis testing (F-test for overall model fit and t-tests for slope significance), effect size via R², R implementation using lm() and summary(), standardized reporting guidelines, and core statistical assumptions.
 

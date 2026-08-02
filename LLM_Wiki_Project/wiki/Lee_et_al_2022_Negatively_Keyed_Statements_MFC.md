@@ -1,12 +1,12 @@
 ---
-title: "1-s2.0-S0191886922000599-main.pdf"
+title: "Lee_et_al_2022_Negatively_Keyed_Statements_MFC"
 description: "This research investigates how negatively keyed statements within multidimensional forced choice (MFC) personality measures affect reliability and criterion-related validity. Through Monte Carlo simulations and empirical data, the authors compare partially ipsative (PI) and Thurstonian Item Response Theory (TIRT) scoring methods. The findings suggest that TIRT scoring, particularly when using 20-40% highly discriminating heteropolar blocks, provides superior psychometric properties and criterion-related validity compared to PI scoring."
 type: "summary"
 tags: ["source"]
 timestamp: "2026-08-01"
 sources: ["1-s2.0-S0191886922000599-main.pdf"]
 ---
-# 1-s2.0-S0191886922000599-main.pdf
+# Lee_et_al_2022_Negatively_Keyed_Statements_MFC
 
 This research investigates how negatively keyed statements within multidimensional forced choice (MFC) personality measures affect reliability and criterion-related validity. Through Monte Carlo simulations and empirical data, the authors compare partially ipsative (PI) and Thurstonian Item Response Theory (TIRT) scoring methods. The findings suggest that TIRT scoring, particularly when using 20-40% highly discriminating heteropolar blocks, provides superior psychometric properties and criterion-related validity compared to PI scoring.
 

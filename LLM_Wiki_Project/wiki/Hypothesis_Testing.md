@@ -33,9 +33,9 @@ Because we rely on probabilities, hypothesis testing always carries a risk of er
 - **Type I Error (False Positive)**: Rejecting $H_0$ when it is actually true. The risk of this error equals the alpha ($\alpha$) level.
 - **Type II Error (False Negative)**: Retaining $H_0$ when it is actually false. The risk is denoted by beta ($\beta$). 
 
-**Statistical Power** ($1 - \beta$) is the probability of correctly rejecting a false null hypothesis (i.e., detecting an effect when there is one). 
+[[Statistical_Power]] ($1 - \beta$) is the probability of correctly rejecting a false null hypothesis (ie, detecting an effect when there is one). 
 
 ## Multiple Comparisons
-When running multiple hypothesis tests on the same dataset, the probability of a Type I error increases. To control this, researchers often use the **Bonferroni correction**, dividing the $\alpha$ level by the number of tests performed.
+When running multiple hypothesis tests on the same dataset, the probability of a Type I error increases. To control this, researchers often use the [[Bonferroni_Correction]], dividing the $\alpha$ level by the number of tests performed.
 
 *(Source: Lecture 7. Hypothesis Testing - notes.pdf)*

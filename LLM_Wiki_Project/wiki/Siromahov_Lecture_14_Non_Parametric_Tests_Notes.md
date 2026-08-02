@@ -1,12 +1,12 @@
 ---
-title: "scratch_3.txt"
+title: "Siromahov_Lecture_14_Non_Parametric_Tests_Notes"
 description: "This document consists of Lecture 14 notes on non-parametric statistical tests from M. Siromahov's 'Introduction to Statistical Methods' course. It explains the rationale for using non-parametric (distribution-free) methods over parametric equivalents (such as t-tests and ANOVA) when assumptions like normality are violated, outliers are present, or sample sizes are small. The lecture details three key non-parametric tests: the Wilcoxon Rank-Sum test (Mann-Whitney U-test) for independent two-sample comparisons, the Wilcoxon Signed-Rank test for paired-sample comparisons, and the Kruskal-Wallis test for comparing three or more independent groups. For each test, it outlines hypotheses, step-by-step data ranking procedures, R execution commands, post-hoc Bonferroni corrections, and standard reporting guidelines. Finally, it notes that while ranking protects against distributional violations, it reduces statistical power relative to parametric tests due to the loss of information regarding score magnitudes."
 type: "summary"
 tags: ["source"]
 timestamp: "2026-08-01"
 sources: ["scratch_3.txt"]
 ---
-# scratch_3.txt
+# Siromahov_Lecture_14_Non_Parametric_Tests_Notes
 
 This document consists of Lecture 14 notes on non-parametric statistical tests from M. Siromahov's 'Introduction to Statistical Methods' course. It explains the rationale for using non-parametric (distribution-free) methods over parametric equivalents (such as t-tests and ANOVA) when assumptions like normality are violated, outliers are present, or sample sizes are small. The lecture details three key non-parametric tests: the Wilcoxon Rank-Sum test (Mann-Whitney U-test) for independent two-sample comparisons, the Wilcoxon Signed-Rank test for paired-sample comparisons, and the Kruskal-Wallis test for comparing three or more independent groups. For each test, it outlines hypotheses, step-by-step data ranking procedures, R execution commands, post-hoc Bonferroni corrections, and standard reporting guidelines. Finally, it notes that while ranking protects against distributional violations, it reduces statistical power relative to parametric tests due to the loss of information regarding score magnitudes.
 
